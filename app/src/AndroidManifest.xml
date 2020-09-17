@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reshmaharidhas.reshma.beautycare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:versionCode="1"
+        android:versionName="1.0"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Cleansing"
+            android:label="@string/title_activity_cleansing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Moisturising"
+            android:label="@string/title_activity_moisturising"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Nourishing"
+            android:label="@string/title_activity_nourishing"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Toning"
+            android:label="@string/title_activity_toning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Astringent"
+            android:label="@string/title_activity_astringent"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Acne"
+            android:label="@string/title_activity_acne"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Spots"
+            android:label="@string/title_activity_spots"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Blotchiness"
+            android:label="@string/title_activity_blotchiness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Freckles"
+            android:label="@string/title_activity_freckles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.FaceMassage"
+            android:label="@string/title_activity_face_massage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HomeFacial"
+            android:label="@string/title_activity_home_facial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.EyeCream"
+            android:label="@string/title_activity_eye_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.SparklingEyes"
+            android:label="@string/title_activity_sparkling_eyes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Scabies"
+            android:label="@string/title_activity_scabies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Eczema"
+            android:label="@string/title_activity_eczema"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Psoriasis"
+            android:label="@string/title_activity_psoriasis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Dandruff"
+            android:label="@string/title_activity_dandruff"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HairConditioner"
+            android:label="@string/title_activity_hair_conditioner"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.PatchyBaldness"
+            android:label="@string/title_activity_patchy_baldness"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.GreyingHair"
+            android:label="@string/title_activity_greying_hair"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HairDye"
+            android:label="@string/title_activity_hair_dye"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.ScrollingActivityscrub"
+            android:label="@string/bs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HerbalBodyLotion"
+            android:label="@string/title_activity_herbal_body_lotion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.CleansingCream"
+            android:label="@string/title_activity_cleansing_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.AlmondOilMoisturisingCream"
+            android:label="@string/title_activity_almond_oil_moisturising_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HerbCream"
+            android:label="@string/title_activity_herb_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.AvacadoAlmondCream"
+            android:label="@string/title_activity_avacado_almond_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.SunflowerCream"
+            android:label="@string/title_activity_sunflower_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.JasmineMoisturisingCream"
+            android:label="@string/title_activity_jasmine_moisturising_cream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.NourishingCreams"
+            android:label="@string/title_activity_nourishing_creams"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Tonics"
+            android:label="@string/title_activity_tonics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.AstringentLotions"
+            android:label="@string/title_activity_astringent_lotions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.BoilsPustules"
+            android:label="@string/title_activity_boils_pustules"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Heat"
+            android:label="@string/title_activity_heat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.FaceMask"
+            android:label="@string/title_activity_face_mask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.TeethCleanser"
+            android:label="@string/title_activity_teeth_cleanser"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.MouthWash"
+            android:label="@string/title_activity_mouth_wash"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.CleansingLotion"
+            android:label="@string/title_activity_cleansing_lotion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.DanduffRemedy"
+            android:label="@string/title_activity_danduff_remedy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HairConditioner2"
+            android:label="@string/title_activity_hair_conditioner2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.PatchyRemedies"
+            android:label="@string/title_activity_patchy_remedies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.GreyHairRemedies"
+            android:label="@string/title_activity_grey_hair_remedies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HairdyePrecaution"
+            android:label="@string/title_activity_hairdye_precaution"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HerbalHairdye"
+            android:label="@string/title_activity_herbal_hairdye"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HomemadeShampoos"
+            android:label="@string/title_activity_homemade_shampoos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.HairSetting"
+            android:label="@string/title_activity_hair_setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.Frfr"
+            android:label="@string/title_activity_face_pack2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.reshmaharidhas.reshma.beautycare.GlossaryList"
+            android:label="@string/title_activity_glossary_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
