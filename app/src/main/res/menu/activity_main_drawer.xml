@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bath"
+            android:icon="@drawable/bath"
+            android:title="Bath" />
+        <item
+            android:id="@+id/nav_skin"
+            android:icon="@drawable/skin"
+            android:title="Skin" />
+        <item
+            android:id="@+id/nav_skinprob"
+            android:icon="@drawable/skinproblem"
+            android:title="Skin Problems" />
+        <item
+            android:id="@+id/nav_facial"
+            android:icon="@drawable/facial_treatment"
+            android:title="Facial Treatment" />
+        <item
+            android:id="@+id/nav_lips"
+            android:icon="@drawable/lips"
+            android:title="Lips" />
+        <item
+            android:id="@+id/nav_teeth"
+            android:icon="@drawable/teeth"
+            android:title="Teeth"/>
+        <item
+            android:id="@+id/nav_eyes"
+            android:icon="@drawable/eyes"
+            android:title="Eyes" />
+        <item
+            android:id="@+id/nav_hair"
+            android:icon="@drawable/hair"
+            android:title="Hair" />
+        <item
+            android:id="@+id/nav_shampoo"
+            android:icon="@drawable/shampoo"
+            android:title="Shampoo" />
+        <item
+            android:id="@+id/nav_skininflame"
+            android:icon="@drawable/skin_inflammation"
+            android:title="Skin Inflammation" />
+
+    </group>
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_glossary"
+                android:icon="@drawable/tips"
+                android:title="Glossary" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="About" />
+
+        </menu>
+    </item>
+
+</menu>
