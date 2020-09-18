@@ -1,0 +1,158 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Hair"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/title_activity_dandruff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewdandruff"
+            android:layout_alignRight="@+id/imageViewdandruff"
+            android:layout_alignEnd="@+id/imageViewdandruff"
+            android:textColor="@color/black"
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp"
+            android:id="@+id/textViewdandruff"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/hairconditioner"
+            android:layout_marginRight="38dp"
+            android:layout_marginEnd="38dp"
+            android:id="@+id/imageViewhcond"
+            android:layout_alignTop="@+id/imageViewdandruff"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/title_activity_hair_conditioner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewhcond"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageViewhcond"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/patchybald"
+            android:layout_marginTop="23dp"
+            android:id="@+id/imageViewpatchybald"
+            android:layout_below="@+id/textViewdandruff"
+            android:layout_alignLeft="@+id/imageViewdandruff"
+            android:layout_alignStart="@+id/imageViewdandruff" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/dandruff"
+            android:layout_marginTop="9dp"
+            android:id="@+id/imageViewdandruff"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textViewpatchybald"
+            android:layout_alignEnd="@+id/textViewpatchybald"
+            android:layout_marginRight="12dp"
+            android:layout_marginEnd="12dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/hairdye"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imageViewhairdye"
+            android:layout_below="@+id/textViewpatchybald"
+            android:layout_alignLeft="@+id/imageViewpatchybald"
+            android:layout_alignStart="@+id/imageViewpatchybald" />
+
+        <TextView
+            android:text="@string/title_activity_hair_dye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_below="@+id/imageViewhairdye"
+            android:layout_alignRight="@+id/textViewdandruff"
+            android:layout_alignEnd="@+id/textViewdandruff"
+            android:id="@+id/textViewhairdye"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/facialhair"
+            android:id="@+id/imageViewhairshampoo"
+            android:layout_alignTop="@+id/imageViewhairdye"
+            android:layout_alignLeft="@+id/imageViewgreyhair"
+            android:layout_alignStart="@+id/imageViewgreyhair" />
+
+        <TextView
+            android:text="@string/title_activity_greying_hair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/textViewgreyhair"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/imageViewgreyhair"
+            android:layout_alignRight="@+id/imageViewgreyhair"
+            android:layout_alignEnd="@+id/imageViewgreyhair" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/greying"
+            android:id="@+id/imageViewgreyhair"
+            android:layout_above="@+id/textViewpatchybald"
+            android:layout_alignLeft="@+id/imageViewhcond"
+            android:layout_alignStart="@+id/imageViewhcond" />
+
+        <TextView
+            android:text="@string/title_activity_patchy_baldness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewpatchybald"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:layout_below="@+id/imageViewpatchybald"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="Hair Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewhairshampoo"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/imageViewhairshampoo"
+            android:layout_alignEnd="@+id/imageViewhairshampoo" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

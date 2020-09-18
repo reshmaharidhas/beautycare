@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Glossary">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/grassdew"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:text="@string/glossarybutton"
+                android:id="@+id/glossarybutton"
+                android:layout_width="180dp"
+                android:padding="8dp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:layout_height="match_parent"
+                android:layout_marginTop="150dp"
+                android:textSize="18sp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/colorPrimary"
+                android:fontFamily="serif" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

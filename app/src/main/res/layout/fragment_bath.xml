@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.reshmaharidhas.reshma.beautycare.bath">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/bath1"
+            android:layout_marginTop="35dp"
+            android:id="@+id/imageViewbath"
+            android:layout_marginLeft="70dp"
+            android:layout_marginStart="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/bath" />
+        <TextView
+            android:text="@string/bath"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/imageViewbath"
+            android:layout_alignRight="@+id/imageViewbath"
+            android:layout_alignEnd="@+id/imageViewbath"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/lotion"
+            android:id="@+id/imageViewbodylotion"
+            android:contentDescription="@string/lotion"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp" />
+
+        <TextView
+            android:text="@string/lotion"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/imageViewbodylotion"
+            android:layout_alignRight="@+id/imageViewbodylotion"
+            android:layout_alignEnd="@+id/imageViewbodylotion"
+            android:textStyle="normal|bold" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Eyes">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="@string/eyecream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageVieweyecream"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textVieweyecream"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/sparklingeyes"
+            android:layout_marginTop="46dp"
+            android:id="@+id/imageViewsparkeye"
+            android:layout_below="@+id/textVieweyecream"
+            android:layout_alignLeft="@+id/imageVieweyecream"
+            android:layout_alignStart="@+id/imageVieweyecream" />
+
+        <TextView
+            android:text="@string/sparkeye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewsparkeye"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/black"
+            android:id="@+id/textViewsparkeye"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            app:srcCompat="@drawable/eyecream"
+            android:layout_marginTop="9dp"
+            android:id="@+id/imageVieweyecream"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

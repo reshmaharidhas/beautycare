@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Skininflammation">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="@string/scabies"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="106dp"
+            android:id="@+id/button5"
+            android:textColor="@color/black"
+            android:background="@color/colorPrimary"
+            android:elevation="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            style="@style/Base.CardView"
+            android:textSize="20sp" />
+
+        <Button
+            android:text="@string/psoriasis"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="58dp"
+            android:textColor="@color/black"
+            android:id="@+id/button7"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/button6"
+            android:layout_centerHorizontal="true"
+            style="@style/Base.CardView" />
+
+        <Button
+            android:text="@string/ecz"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="52dp"
+            android:id="@+id/button6"
+            android:textColor="@color/black"
+            android:background="@android:color/holo_green_light"
+            style="@style/Base.CardView"
+            android:layout_below="@+id/button5"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_alignStart="@+id/button7" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

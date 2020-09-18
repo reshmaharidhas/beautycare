@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="55dp"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Shampoo">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/buttonshampoo"
+                android:text="Home-made Shampoos"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                style="@style/Base.CardView"
+                android:textSize="20sp"
+                android:background="@android:color/holo_blue_bright"
+                android:layout_below="@+id/textViewshampoodesc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:id="@+id/textViewshampoodesc"
+                android:text="@string/shampoodesc"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:layout_marginTop="21dp"
+                android:layout_below="@+id/imageViewshampooing"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/imageViewshampooing"
+                app:srcCompat="@drawable/hairshampoo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="27dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>

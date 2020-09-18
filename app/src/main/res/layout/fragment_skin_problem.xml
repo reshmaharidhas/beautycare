@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="55dp"
+    tools:context="com.reshmaharidhas.reshma.beautycare.SkinProblem">
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/acne"
+            android:id="@+id/imageViewacne"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="54dp"
+            android:layout_marginStart="54dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/spots"
+            android:layout_marginRight="44dp"
+            android:layout_marginEnd="44dp"
+            android:id="@+id/imageViewspots"
+            android:layout_alignTop="@+id/imageViewacne"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:text="@string/acne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="33dp"
+            android:layout_marginEnd="33dp"
+            android:id="@+id/textViewacne"
+            android:layout_below="@+id/imageViewacne"
+            android:layout_alignRight="@+id/imageViewacne"
+            android:layout_alignEnd="@+id/imageViewacne"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="@string/spots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewspots"
+            android:layout_below="@+id/imageViewspots"
+            android:layout_alignLeft="@+id/imageViewspots"
+            android:layout_alignStart="@+id/imageViewspots"
+            android:layout_marginLeft="31dp"
+            android:layout_marginStart="31dp"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <Button
+            android:text="@string/blotch"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/button3"
+            android:background="@color/colorPrimary"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="@string/freck"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:id="@+id/button4"
+            android:layout_below="@+id/button3"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_alignStart="@+id/button3"
+            android:background="@android:color/holo_green_light" />
+
+        <Button
+            android:text="@string/boils"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/button"
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:layout_below="@+id/textViewacne"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:text="@string/prickly"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:background="@android:color/holo_green_light"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/button"
+            android:layout_alignRight="@+id/button"
+            android:layout_alignEnd="@+id/button" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+</FrameLayout>

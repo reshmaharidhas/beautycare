@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="55dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Facial">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/imageViewfacemassage"
+                app:srcCompat="@drawable/facemassage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="9dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+            <TextView
+                android:id="@+id/textViewfacemassage"
+                android:text="Face Massage"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_below="@id/imageViewfacemassage"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:id="@+id/imageViewhomefacial"
+                app:srcCompat="@drawable/homefacial"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="28dp"
+                android:layout_below="@+id/textViewfacemassage"
+                android:layout_alignLeft="@+id/imageViewfacemassage"
+                android:layout_alignStart="@+id/imageViewfacemassage" />
+            <TextView
+                android:id="@+id/textViewhomefacial"
+                android:text="Home Facial"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_below="@id/imageViewhomefacial"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/buttonfacepack"
+                app:srcCompat="@drawable/facepackimage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="28dp"
+                android:layout_below="@+id/textViewhomefacial"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/holo_blue_bright"
+                style="@style/Base.CardView" />
+            <TextView
+                android:id="@+id/textViewfacepack"
+                android:text="Face Pack"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_below="@id/buttonfacepack"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
