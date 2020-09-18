@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_moisturising"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Moisturising"
+    tools:showIn="@layout/activity_moisturising">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/moisturising"
+        android:id="@+id/imageView17"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+        <Button
+            android:text="Jasmine Moisturising Cream"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            style="@style/Base.CardView"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_below="@+id/button13"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="18dp"/>
+        <TextView
+            android:text="@string/moistdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/textView4"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:layout_below="@+id/imageView17"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="serif" />
+
+        <Button
+            android:text="Almond oil Moisturising Cream"
+            android:onClick="onClick"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button10"
+            style="@style/Base.CardView"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp" />
+        <Button
+        android:text="Herb Cream"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/button10"
+            android:layout_alignLeft="@+id/button10"
+            android:layout_alignStart="@+id/button10" />
+        <Button
+        android:text="Avacado and Almond Cream"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/button11"
+            android:layout_alignLeft="@+id/button13"
+            android:layout_alignStart="@+id/button13" />
+        <Button
+            android:text="Sunflower Cream"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            style="@style/Base.CardView"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_below="@+id/button12"
+            android:layout_alignLeft="@+id/button11"
+            android:layout_alignStart="@+id/button11"
+            android:layout_marginTop="18dp" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_grey_hair_remedies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.GreyHairRemedies"
+    tools:showIn="@layout/activity_grey_hair_remedies">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageViewhairgreyrem1"
+    app:srcCompat="@drawable/pin"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/hairgrey1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem1"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem1" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewhairgrey1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhairgreyrem2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/hairgrey2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view1"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem2"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem2" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewhairgrey2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhairgreyrem3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/hairgrey3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem2"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem2" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewhairgrey3"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhairgreyrem4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey4"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/hairgrey4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view3"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem2"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem2" />
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@id/textViewhairgrey4"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhairgreyrem5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey5"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:text="@string/hairgrey5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view4"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem2"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem2" />
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@id/textViewhairgrey5"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhairgreyrem6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairgrey6"
+        android:text="@string/hairgrey6"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/imageViewhairgreyrem2"
+        android:layout_toEndOf="@+id/imageViewhairgreyrem2" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

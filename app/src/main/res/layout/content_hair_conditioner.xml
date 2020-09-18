@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_hair_conditioner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HairConditioner"
+    tools:showIn="@layout/activity_hair_conditioner">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/hairconditiondesc"
+        android:text="@string/hairconditionerdesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewhairconditioner"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:fontFamily="serif" />
+
+    <Button
+        android:id="@+id/buttonhairconditioner"
+        android:text="Hair Conditioners"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_below="@+id/hairconditiondesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+    <ImageView
+        android:id="@+id/imageViewhairconditioner"
+        app:srcCompat="@drawable/hairconditioner"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

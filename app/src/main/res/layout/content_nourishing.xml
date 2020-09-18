@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_nourishing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Nourishing"
+    tools:showIn="@layout/activity_nourishing">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewnourishdesc"
+        android:text="@string/nourishingdesc"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="serif" />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/nourishing"
+        android:id="@+id/imageView18"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:text="Nourishing Creams"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="22sp"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textViewnourishdesc"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

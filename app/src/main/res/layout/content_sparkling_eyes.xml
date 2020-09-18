@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_sparkling_eyes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.SparklingEyes"
+    tools:showIn="@layout/activity_sparkling_eyes">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewsparkeye1"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye1"
+        android:text="@string/sparkeye1"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewsparkeye1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye2"
+        android:text="@string/sparkeye2"
+        android:layout_marginLeft="25dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view1"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewsparkeye2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye3"
+        android:text="@string/sparkeye3"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view2"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewsparkeye3"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye4"
+        android:text="@string/sparkeye4"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view3"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@id/textViewsparkeye4"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye5"
+        android:text="@string/sparkeye5"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view4"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@id/textViewsparkeye5"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye6"
+        android:text="@string/sparkeye6"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view5"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view6"
+        android:layout_below="@id/textViewsparkeye6"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye7"
+        android:layout_below="@id/view6"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye7"
+        android:text="@string/sparkeye7"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view6"
+        android:gravity="center"
+        android:textSize="16sp" />
+    <View
+        android:id="@+id/view7"
+        android:layout_below="@id/textViewsparkeye7"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewsparkeye8"
+        android:layout_below="@id/view7"
+        app:srcCompat="@drawable/eyes"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewsparkeye8"
+        android:text="@string/sparkeye8"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@id/view7"
+        android:gravity="center"
+        android:textSize="16sp" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

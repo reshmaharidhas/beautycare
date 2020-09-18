@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_scabies"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Scabies"
+    tools:showIn="@layout/activity_scabies">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewscabies1"
+        app:srcCompat="@drawable/hospital"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies1"
+        android:text="@string/scabies1"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies1"
+        android:layout_toEndOf="@+id/imageViewscabies1" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies2"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies2"
+        android:text="@string/scabies2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies2"
+        android:layout_toEndOf="@+id/imageViewscabies2" />
+    <View
+        android:id="@+id/view2"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies3"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies3"
+        android:text="@string/scabies3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies3"
+        android:layout_toEndOf="@+id/imageViewscabies3" />
+    <View
+        android:id="@+id/view3"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies4"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view3"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies4"
+        android:text="@string/scabies4"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_below="@id/view3"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies4"
+        android:layout_toEndOf="@+id/imageViewscabies4" />
+    <View
+        android:id="@+id/view4"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies5"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view4"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies5"
+        android:text="@string/scabies5"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies5"
+        android:layout_toEndOf="@+id/imageViewscabies5" />
+    <View
+        android:id="@+id/view5"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies6"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view5"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies6"
+        android:text="@string/scabies6"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies6"
+        android:layout_toEndOf="@+id/imageViewscabies6" />
+    <View
+        android:id="@+id/view6"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewscabies6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewscabies7"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view6"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewscabies7"
+        android:text="@string/scabies7"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/view6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewscabies7"
+        android:layout_toEndOf="@+id/imageViewscabies7" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

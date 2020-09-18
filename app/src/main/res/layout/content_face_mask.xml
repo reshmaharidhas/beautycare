@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_face_mask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.FaceMask"
+    tools:showIn="@layout/activity_face_mask">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewfm1"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:text="@string/facemask1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewfm1a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginLeft="7dp"
+        android:layout_marginStart="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewfm1"
+        android:layout_toEndOf="@+id/imageViewfm1" />
+    <TextView
+        android:text="@string/facemask1b"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewfm1b"
+        android:layout_below="@+id/textViewfm1a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view1"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm1b"/>
+    <ImageView
+        android:id="@+id/imageViewfm2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:text="@string/facemask2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:id="@+id/textViewfm2a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm1b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+        android:id="@+id/textViewfm2b"
+        android:text="@string/facemask2b"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewfm2a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view2"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm2b"/>
+    <ImageView
+        android:id="@+id/imageViewfm3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewfm3a"
+        android:text="@string/facemask3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm2b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+        android:id="@+id/textViewfm3b"
+        android:text="@string/facemask3b"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewfm3a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view3"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm3b"/>
+    <ImageView
+        android:id="@+id/imageViewfm4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewfm4a"
+        android:text="@string/facemask4a"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm3b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+    android:id="@+id/textViewfm4b"
+    android:text="@string/facemask4b"
+    android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textViewfm4a"
+    android:gravity="center"
+    android:textSize="16sp"
+    android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view4"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm4b"/>
+    <ImageView
+        android:id="@+id/imageViewfm5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewfm5a"
+        android:text="@string/facemask5a"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm4b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+        android:id="@+id/textViewfm5b"
+        android:text="@string/facemask5b"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewfm5a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view5"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm5b"/>
+    <ImageView
+        android:id="@+id/imageViewfm6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewfm6a"
+        android:text="@string/facemask6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm5b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+        android:id="@+id/textViewfm6b"
+        android:text="@string/facemask6b"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewfm6a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+    <View
+        android:id="@+id/view6"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewfm6b"/>
+    <ImageView
+        android:id="@+id/imageViewfm7"
+        android:layout_below="@id/view6"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewfm7a"
+        android:text="@string/facemask7a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/textViewfm6b"
+        android:layout_alignLeft="@+id/textViewfm1a"
+        android:layout_alignStart="@+id/textViewfm1a" />
+    <TextView
+        android:id="@+id/textViewfm7b"
+        android:text="@string/facemask7b"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewfm7a"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imageViewfm1" />
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

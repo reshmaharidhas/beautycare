@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.CleansingCream"
+    tools:showIn="@layout/activity_cleansing_cream">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewcleanse1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/pin" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:id="@+id/textViewcleanse1b"
+        android:text="@string/cleanse1m"
+        android:layout_below="@+id/textViewcleanse1a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+    <View
+        android:id="@+id/cleanseview1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewcleanse1b"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/imageViewcleanse2"
+        android:layout_below="@id/cleanseview1"
+        />
+    <TextView
+        android:text="@string/cleanse2ing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcleanse2a"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:layout_below="@+id/cleanseview1"
+        android:layout_alignLeft="@+id/textViewcleanse1a"
+        android:layout_alignStart="@+id/textViewcleanse1a"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewcleanse2b"
+        android:textColor="@color/black"
+        android:text="@string/cleanse2m"
+        android:layout_below="@+id/textViewcleanse2a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+    <View
+        android:id="@+id/cleanseview2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewcleanse2b"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/imageViewcleanse3"
+        android:layout_below="@id/cleanseview2"
+        />
+    <TextView
+        android:text="@string/cleanse3ing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcleanse3a"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:layout_below="@+id/cleanseview2"
+        android:layout_alignLeft="@+id/textViewcleanse1a"
+        android:layout_alignStart="@+id/textViewcleanse1a"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:text="@string/cleanse1ing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcleanse1a"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="17dp"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewcleanse3b"
+        android:text="@string/cleanse3m"
+        android:layout_below="@+id/textViewcleanse3a"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+    <View
+        android:id="@+id/cleanseview3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewcleanse3b"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/pin"
+        android:id="@+id/imageViewcleanse4"
+        android:layout_below="@id/cleanseview3"
+        />
+    <TextView
+        android:text="@string/cleanse4ing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewcleanse4a"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:textColor="@color/black"
+        android:layout_below="@+id/cleanseview3"
+        android:layout_alignLeft="@+id/textViewcleanse1a"
+        android:layout_alignStart="@+id/textViewcleanse1a"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textViewcleanse4b"
+        android:textColor="@color/black"
+        android:text="@string/cleanse4m"
+        android:layout_below="@+id/textViewcleanse4a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+
+</RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

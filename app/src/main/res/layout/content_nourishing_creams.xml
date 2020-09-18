@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.NourishingCreams"
+    tools:showIn="@layout/activity_nourishing_creams">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageViewnourish1"
+    app:srcCompat="@drawable/pin"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish1a"
+        android:text="@string/nourish1a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewnourish1"
+        android:layout_toEndOf="@+id/imageViewnourish1" />
+    <TextView
+        android:id="@+id/textViewnourish1b"
+        android:text="@string/nourish1b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish1a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish1c"
+        android:text="@string/nourish1c"
+        android:gravity="center"
+        android:layout_below="@id/textViewnourish1b"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish1c"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/textViewnourish2b"
+        android:text="@string/nourish2b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewnourish2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textViewnourish2a"
+        android:text="@string/nourish2a"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view1"
+        android:layout_above="@+id/textViewnourish2b"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish2"
+        android:layout_toEndOf="@+id/imageViewnourish2" />
+    <View
+        android:id="@+id/view2"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish2b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish3a"
+        android:text="@string/nourish3a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish3"
+        android:layout_toEndOf="@+id/imageViewnourish3" />
+    <TextView
+        android:id="@+id/textViewnourish3b"
+        android:text="@string/nourish3b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish3a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish3c"
+        android:text="@string/nourish3c"
+        android:gravity="center"
+        android:layout_below="@id/textViewnourish3b"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view3"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish3c"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish4a"
+        android:text="@string/nourish4a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish4"
+        android:layout_toEndOf="@+id/imageViewnourish4" />
+    <TextView
+        android:id="@+id/textViewnourish4b"
+        android:text="@string/nourish4b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewnourish4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view4"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish4b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish5a"
+        android:text="@string/nourish5a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/view4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish5"
+        android:layout_toEndOf="@+id/imageViewnourish5" />
+    <TextView
+        android:id="@+id/textViewnourish5b"
+        android:text="@string/nourish5b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish5a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish5c"
+        android:text="@string/nourish5c"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewnourish5b"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view5"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish5c"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish6a"
+        android:text="@string/nourish6a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/view5"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish6"
+        android:layout_toEndOf="@+id/imageViewnourish6" />
+    <TextView
+        android:id="@+id/textViewnourish6b"
+        android:text="@string/nourish6b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish6a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish6c"
+        android:text="@string/nourish6c"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewnourish6b"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view6"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish6c"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish7"
+        android:layout_below="@id/view6"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish7a"
+        android:text="@string/nourish7a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish7"
+        android:layout_toEndOf="@+id/imageViewnourish7" />
+    <TextView
+        android:id="@+id/textViewnourish7b"
+        android:text="@string/nourish7b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish7a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish7c"
+        android:text="@string/nourish7c"
+        android:gravity="center"
+        android:layout_below="@id/textViewnourish7b"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view7"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish7c"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish8"
+        android:layout_below="@id/view7"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish8a"
+        android:text="@string/nourish8a"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view7"
+        android:layout_above="@+id/textViewnourish8b"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish8"
+        android:layout_toEndOf="@+id/imageViewnourish8" />
+    <TextView
+        android:id="@+id/textViewnourish8b"
+        android:text="@string/nourish8b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewnourish8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view8"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewnourish8b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewnourish9"
+        android:layout_below="@id/view8"
+        app:srcCompat="@drawable/pin"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewnourish9a"
+        android:text="@string/nourish9a"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageViewnourish9"
+        android:layout_toEndOf="@+id/imageViewnourish9" />
+    <TextView
+        android:id="@+id/textViewnourish9b"
+        android:text="@string/nourish9b"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewnourish9a"
+        android:background="@color/colorpalegreen1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewnourish9c"
+        android:text="@string/nourish9c"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewnourish9b"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

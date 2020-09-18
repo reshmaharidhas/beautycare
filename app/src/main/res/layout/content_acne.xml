@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_acne"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Acne"
+    tools:showIn="@layout/activity_acne">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageViewacne1"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne1"
+           android:text="@string/acne1"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne1"
+           android:layout_toEndOf="@+id/imageViewacne1" />
+       <View
+           android:id="@+id/view1"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne1"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne2"
+           android:layout_below="@id/view1"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne2"
+           android:text="@string/acne2"
+           android:layout_below="@id/view1"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne2"
+           android:layout_toEndOf="@+id/imageViewacne2" />
+       <View
+           android:id="@+id/view2"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne2"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne3"
+           android:layout_below="@id/view2"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne3"
+           android:text="@string/acne3"
+           android:layout_below="@id/view2"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne3"
+           android:layout_toEndOf="@+id/imageViewacne3" />
+       <View
+           android:id="@+id/view3"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne3"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne4"
+           android:layout_below="@id/view3"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne4"
+           android:text="@string/acne4"
+           android:layout_below="@id/view3"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne4"
+           android:layout_toEndOf="@+id/imageViewacne4" />
+       <View
+           android:id="@+id/view4"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne4"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne5"
+           android:layout_below="@id/view4"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne5"
+           android:text="@string/acne5"
+           android:layout_below="@id/view4"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne5"
+           android:layout_toEndOf="@+id/imageViewacne5" />
+       <View
+           android:id="@+id/view5"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne5"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne6"
+           android:layout_below="@id/view5"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne6"
+           android:text="@string/acne6"
+           android:layout_below="@id/view5"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne6"
+           android:layout_toEndOf="@+id/imageViewacne6" />
+       <View
+           android:id="@+id/view6"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne6"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne7"
+           android:layout_below="@id/view6"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne7"
+           android:text="@string/acne7"
+           android:layout_below="@id/view6"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne7"
+           android:layout_toEndOf="@+id/imageViewacne7" />
+       <View
+           android:id="@+id/view7"
+           android:background="@color/colorPrimary"
+           android:layout_below="@id/textViewacne7"
+           android:layout_width="match_parent"
+           android:layout_height="1dp"/>
+       <ImageView
+           android:id="@+id/imageViewacne8"
+           android:layout_below="@id/view7"
+           app:srcCompat="@drawable/pin"
+           android:layout_width="25dp"
+           android:layout_height="25dp" />
+       <TextView
+           android:id="@+id/textViewacne8"
+           android:text="@string/acne8"
+           android:layout_below="@id/view7"
+           android:textSize="16sp"
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_toRightOf="@+id/imageViewacne8"
+           android:layout_toEndOf="@+id/imageViewacne8" />
+   </RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.BoilsPustules"
+    tools:showIn="@layout/activity_boils_pustules">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:id="@+id/imageViewboil1"
+    app:srcCompat="@drawable/pin" />
+    <TextView
+        android:id="@+id/textViewboil1"
+        android:text="@string/boil1"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewboil1"
+        android:layout_toEndOf="@+id/imageViewboil1" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewboil1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewboil2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/pin" />
+    <TextView
+        android:id="@+id/textViewboil2"
+        android:text="@string/boil2"
+        android:textSize="16sp"
+        android:layout_below="@id/view1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewboil2"
+        android:layout_toEndOf="@+id/imageViewboil2" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewboil2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewboil3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/pin" />
+    <TextView
+        android:id="@+id/textViewboil3"
+        android:text="@string/boil3"
+        android:textSize="16sp"
+        android:layout_below="@id/view2"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewboil3"
+        android:layout_toEndOf="@+id/imageViewboil3" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewboil3"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewboil4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/pin" />
+    <TextView
+        android:id="@+id/textViewboil4"
+        android:text="@string/boil4"
+        android:textSize="16sp"
+        android:layout_below="@id/view3"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewboil4"
+        android:layout_toEndOf="@+id/imageViewboil4" />
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@id/textViewboil4"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/imageViewboil5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/pin" />
+    <TextView
+        android:id="@+id/textViewboil5"
+        android:text="@string/boil5"
+        android:textSize="16sp"
+        android:layout_below="@id/view4"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewboil5"
+        android:layout_toEndOf="@+id/imageViewboil5" />
+
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_eczema"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Eczema"
+    tools:showIn="@layout/activity_eczema">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewecz1"
+        app:srcCompat="@drawable/hospital"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz1"
+        android:text="@string/eczema1"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz1"
+        android:layout_toEndOf="@+id/imageViewecz1" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewecz1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewecz2"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz2"
+        android:text="@string/eczema2"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz2"
+        android:layout_toEndOf="@+id/imageViewecz2" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewecz2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewecz3"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz3"
+        android:text="@string/eczema3"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_below="@id/view2"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz3"
+        android:layout_toEndOf="@+id/imageViewecz3" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewecz3"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewecz4"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view3"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz4"
+        android:text="@string/eczema4"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz4"
+        android:layout_toEndOf="@+id/imageViewecz4" />
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@id/textViewecz4"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewecz5"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view4"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz5"
+        android:text="@string/eczema5"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz5"
+        android:layout_toEndOf="@+id/imageViewecz5" />
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@id/textViewecz5"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewecz6"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view5"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewecz6"
+        android:text="@string/eczema6"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewecz6"
+        android:layout_toEndOf="@+id/imageViewecz6" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

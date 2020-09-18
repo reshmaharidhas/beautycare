@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_home_facial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HomeFacial"
+    tools:showIn="@layout/activity_home_facial">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewhomefacial"
+        app:srcCompat="@drawable/homefacial"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/homefacialdesc"
+        android:text="@string/homefacialdesc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/imageViewhomefacial"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageViewhomefacial1"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/homefacialdesc"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial1"
+        android:text="@string/homefacial1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/homefacialdesc"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhomefacial1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhomefacial2"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial2"
+        android:text="@string/homefacial2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/view1"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+    <View
+        android:id="@+id/view2"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhomefacial2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhomefacial3"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial3"
+        android:text="@string/homefacial3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+    <View
+        android:id="@+id/view3"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhomefacial3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhomefacial4"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view3"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial4"
+        android:text="@string/homefacial4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/view3"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+    <View
+        android:id="@+id/view4"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhomefacial4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhomefacial5"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view4"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial5"
+        android:text="@string/homefacial5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/view4"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+    <View
+        android:id="@+id/view5"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhomefacial5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhomefacial6"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view5"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhomefacial6"
+        android:text="@string/homefacial6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/imageViewhomefacial1"
+        android:layout_toEndOf="@+id/imageViewhomefacial1" />
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

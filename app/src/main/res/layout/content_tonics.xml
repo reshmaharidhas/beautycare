@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Tonics"
+    tools:showIn="@layout/activity_tonics">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageViewtonic1"
+    app:srcCompat="@drawable/redflower"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic1b"
+            android:textColor="@color/black"
+            android:text="@string/tonic1b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic1"
+            android:layout_toRightOf="@+id/imageViewtonic1"
+            android:layout_toEndOf="@+id/imageViewtonic1" />
+        <TextView
+            android:id="@+id/textViewtonic1a"
+            android:text="@string/tonic1a"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/textViewtonic1b"
+            android:layout_toRightOf="@+id/imageViewtonic1"
+            android:layout_toEndOf="@+id/imageViewtonic1" />
+        <View
+            android:id="@+id/view1"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic1b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic2"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view1"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic2a"
+            android:text="@string/tonic2a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view1"
+            android:layout_toRightOf="@+id/imageViewtonic2"
+            android:layout_toEndOf="@+id/imageViewtonic2" />
+        <TextView
+            android:id="@+id/textViewtonic2b"
+            android:text="@string/tonic2b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic2"
+            android:layout_toRightOf="@+id/imageViewtonic2"
+            android:layout_toEndOf="@+id/imageViewtonic2" />
+        <View
+            android:id="@+id/view2"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic2b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic3"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view2"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic3b"
+            android:text="@string/tonic3b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic3"
+            android:layout_toRightOf="@+id/imageViewtonic3"
+            android:layout_toEndOf="@+id/imageViewtonic3" />
+        <TextView
+            android:id="@+id/textViewtonic3a"
+            android:text="@string/tonic3a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view2"
+            android:layout_above="@+id/textViewtonic3b"
+            android:layout_toRightOf="@+id/imageViewtonic3"
+            android:layout_toEndOf="@+id/imageViewtonic3" />
+        <View
+            android:id="@+id/view3"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic3b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic4"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view3"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic4a"
+            android:text="@string/tonic4a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view3"
+            android:layout_above="@+id/textViewtonic4b"
+            android:layout_toRightOf="@+id/imageViewtonic4"
+            android:layout_toEndOf="@+id/imageViewtonic4" />
+        <TextView
+            android:id="@+id/textViewtonic4b"
+            android:text="@string/tonic4b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic4"
+            android:layout_toRightOf="@+id/imageViewtonic4"
+            android:layout_toEndOf="@+id/imageViewtonic4" />
+        <View
+            android:id="@+id/view4"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic4b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic5"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view4"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic5a"
+            android:text="@string/tonic5a"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view4"
+            android:layout_above="@+id/textViewtonic5b"
+            android:layout_toRightOf="@+id/imageViewtonic5"
+            android:layout_toEndOf="@+id/imageViewtonic5" />
+        <TextView
+            android:id="@+id/textViewtonic5b"
+            android:text="@string/tonic5b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@color/colorpalegreen1"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic5"
+            android:layout_toRightOf="@+id/imageViewtonic5"
+            android:layout_toEndOf="@+id/imageViewtonic5" />
+        <TextView
+            android:id="@+id/textViewtonic5c"
+            android:text="@string/tonic5c"
+            android:layout_below="@id/textViewtonic5b"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/view5"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic5c"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic6"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view5"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic6a"
+            android:text="@string/tonic6a"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view5"
+            android:layout_above="@+id/textViewtonic6b"
+            android:layout_toRightOf="@+id/imageViewtonic6"
+            android:layout_toEndOf="@+id/imageViewtonic6" />
+        <TextView
+            android:id="@+id/textViewtonic6b"
+            android:text="@string/tonic6b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic6"
+            android:layout_toRightOf="@+id/imageViewtonic6"
+            android:layout_toEndOf="@+id/imageViewtonic6" />
+        <View
+            android:id="@+id/view6"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic6b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic7"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view6"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic7a"
+            android:text="@string/tonic7a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view6"
+            android:layout_above="@+id/textViewtonic7b"
+            android:layout_toRightOf="@+id/imageViewtonic7"
+            android:layout_toEndOf="@+id/imageViewtonic7" />
+        <TextView
+            android:id="@+id/textViewtonic7b"
+            android:text="@string/tonic7b"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic7"
+            android:layout_toRightOf="@+id/imageViewtonic7"
+            android:layout_toEndOf="@+id/imageViewtonic7" />
+        <View
+            android:id="@+id/view7"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic7b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic8"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view7"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic8a"
+            android:text="@string/tonic8a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view7"
+            android:layout_above="@+id/textViewtonic8b"
+            android:layout_toRightOf="@+id/imageViewtonic8"
+            android:layout_toEndOf="@+id/imageViewtonic8" />
+        <TextView
+            android:id="@+id/textViewtonic8b"
+            android:text="@string/tonic8b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic8"
+            android:layout_toRightOf="@+id/imageViewtonic8"
+            android:layout_toEndOf="@+id/imageViewtonic8" />
+        <View
+            android:id="@+id/view8"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic8b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic9"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view8"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic9a"
+            android:text="@string/tonic9a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_below="@id/view8"
+            android:layout_above="@+id/textViewtonic9b"
+            android:layout_toRightOf="@+id/imageViewtonic9"
+            android:layout_toEndOf="@+id/imageViewtonic9" />
+        <TextView
+            android:id="@+id/textViewtonic9b"
+            android:text="@string/tonic9b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic9"
+            android:layout_toRightOf="@+id/imageViewtonic9"
+            android:layout_toEndOf="@+id/imageViewtonic9" />
+        <View
+            android:id="@+id/view9"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic9b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic10"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view9"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic10a"
+            android:text="@string/tonic10a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view9"
+            android:textColor="@color/black"
+            android:layout_above="@+id/textViewtonic10b"
+            android:layout_toRightOf="@+id/imageViewtonic10"
+            android:layout_toEndOf="@+id/imageViewtonic10" />
+        <TextView
+            android:id="@+id/textViewtonic10b"
+            android:text="@string/tonic10b"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic10"
+            android:textColor="@color/black"
+            android:layout_toRightOf="@+id/imageViewtonic10"
+            android:layout_toEndOf="@+id/imageViewtonic10" />
+        <View
+            android:id="@+id/view10"
+            android:background="@color/colorPrimary"
+            android:layout_below="@id/textViewtonic10b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewtonic11"
+            app:srcCompat="@drawable/redflower"
+            android:layout_below="@id/view10"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewtonic11a"
+            android:text="@string/tonic11a"
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view10"
+            android:layout_above="@+id/textViewtonic11b"
+            android:layout_toRightOf="@+id/imageViewtonic11"
+            android:layout_toEndOf="@+id/imageViewtonic11" />
+        <TextView
+            android:id="@+id/textViewtonic11b"
+            android:text="@string/tonic11b"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imageViewtonic11"
+            android:layout_toRightOf="@+id/imageViewtonic11"
+            android:layout_toEndOf="@+id/imageViewtonic11" />
+
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

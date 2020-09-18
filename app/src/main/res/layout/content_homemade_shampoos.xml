@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_homemade_shampoos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HomemadeShampoos"
+    tools:showIn="@layout/activity_homemade_shampoos">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageViewshampoo1"
+    app:srcCompat="@drawable/shampoo"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo1a"
+        android:text="@string/shampoo1a"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewshampoo1"
+        android:layout_toEndOf="@+id/imageViewshampoo1" />
+    <TextView
+        android:id="@+id/textViewshampoo1b"
+        android:text="@string/shampoo1b"
+        android:layout_below="@id/textViewshampoo1a"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo1b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo2a"
+        android:text="@string/shampoo2a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view1"
+        android:layout_alignBottom="@+id/imageViewshampoo2"
+        android:layout_toRightOf="@+id/imageViewshampoo2"
+        android:layout_toEndOf="@+id/imageViewshampoo2"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo2b"
+        android:text="@string/shampoo2b"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewshampoo2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view2"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo2b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo3a"
+        android:text="@string/shampoo3a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/view2"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewshampoo3"
+        android:layout_toRightOf="@+id/imageViewshampoo3"
+        android:layout_toEndOf="@+id/imageViewshampoo3"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo3b"
+        android:text="@string/shampoo3b"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewshampoo3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view3"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo3b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo4a"
+        android:text="@string/shampoo4a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/imageViewshampoo4"
+        android:layout_toRightOf="@+id/imageViewshampoo4"
+        android:layout_toEndOf="@+id/imageViewshampoo4"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo4b"
+        android:text="@string/shampoo4b"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewshampoo4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view4"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo4b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo5a"
+        android:text="@string/shampoo5a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/imageViewshampoo5"
+        android:layout_toRightOf="@+id/imageViewshampoo5"
+        android:layout_toEndOf="@+id/imageViewshampoo5"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo5b"
+        android:text="@string/shampoo5b"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewshampoo5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view5"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo5b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo6a"
+        android:text="@string/shampoo6a"
+        android:textSize="20sp"
+        android:layout_below="@id/view5"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/imageViewshampoo6"
+        android:layout_toRightOf="@+id/imageViewshampoo6"
+        android:layout_toEndOf="@+id/imageViewshampoo6"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo6b"
+        android:text="@string/shampoo6b"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewshampoo6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view6"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewshampoo6b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewshampoo7"
+        android:layout_below="@id/view6"
+        app:srcCompat="@drawable/shampoo"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewshampoo7a"
+        android:text="@string/shampoo7a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/view6"
+        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/imageViewshampoo7"
+        android:layout_toRightOf="@+id/imageViewshampoo7"
+        android:layout_toEndOf="@+id/imageViewshampoo7"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/textViewshampoo7b"
+        android:text="@string/shampoo7b"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewshampoo7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

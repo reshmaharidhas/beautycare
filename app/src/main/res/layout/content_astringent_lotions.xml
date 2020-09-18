@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.AstringentLotions"
+    tools:showIn="@layout/activity_astringent_lotions">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/imageViewastringent1"
+    app:srcCompat="@drawable/pin"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewastringent1a"
+        android:text="@string/astringent1a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewastringent1"
+        android:layout_toEndOf="@+id/imageViewastringent1" />
+    <TextView
+        android:id="@+id/textViewastringent1b"
+        android:text="@string/astringent1b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/colorpalegreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent1a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewastringent1c"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/astringent1c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent1b"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewastringent1c"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewastringent2"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewastringent2a"
+        android:text="@string/astringent2a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/view1"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewastringent2"
+        android:layout_toEndOf="@+id/imageViewastringent2" />
+    <TextView
+        android:id="@+id/textViewastringent2b"
+        android:text="@string/astringent2b"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent2a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewastringent2c"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/astringent2c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent2b"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewastringent2c"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewastringent3"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewastringent3a"
+        android:text="@string/astringent3a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/view2"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewastringent3"
+        android:layout_toEndOf="@+id/imageViewastringent3" />
+    <TextView
+        android:id="@+id/textViewastringent3b"
+        android:text="@string/astringent3b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@color/colorpalegreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent3a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewastringent3c"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="@string/astringent3c"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent3b"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewastringent3c"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewastringent4"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view3"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewastringent4a"
+        android:text="@string/astringent4a"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewastringent4"
+        android:layout_toEndOf="@+id/imageViewastringent4" />
+    <TextView
+        android:id="@+id/textViewastringent4b"
+        android:text="@string/astringent4b"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent4a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textViewastringent4c"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="@string/astringent4c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewastringent4b"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

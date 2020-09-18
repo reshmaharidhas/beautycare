@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_mouth_wash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.MouthWash"
+    tools:showIn="@layout/activity_mouth_wash">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewmw1"
+        app:srcCompat="@drawable/mouth1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textViewmouthwash1a"
+            android:text="@string/mouthwash1a"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="14dp" />
+        <TextView
+            android:id="@+id/textViewmouthwash1b"
+            android:text="@string/mouthwash1b"
+            android:layout_below="@id/textViewmouthwash1a"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/colorpalegreen1" />
+        <View
+            android:id="@+id/view1"
+            android:background="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/textViewmouthwash1b"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewmw2"
+            app:srcCompat="@drawable/mouth1"
+            android:layout_below="@id/view1"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textViewmouthwash2a"
+            android:text="@string/mouthwash2"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/view1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

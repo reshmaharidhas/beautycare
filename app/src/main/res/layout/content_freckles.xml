@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_freckles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Freckles"
+    tools:showIn="@layout/activity_freckles">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/freckleimage"
+            app:srcCompat="@drawable/freckles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:id="@+id/freckledesc"
+            android:layout_below="@id/freckleimage"
+            android:text="@string/freckdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="serif" />
+        <ImageView
+            android:id="@+id/imageViewfreckle1"
+            app:srcCompat="@drawable/pin"
+            android:layout_below="@id/freckledesc"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck1"
+            android:text="@string/freck1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/freckledesc"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+        <View
+            android:id="@+id/viewfreck1"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewfreck1"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat2"
+            android:layout_below="@id/viewfreck1"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck2"
+            android:text="@string/freck2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewfreck1"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+        <View
+            android:id="@+id/viewfreck2"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewfreck2"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat3"
+            android:layout_below="@id/viewfreck2"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck3"
+            android:text="@string/freck3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewfreck2"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+        <View
+            android:id="@+id/viewfreck3"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewfreck3"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat4"
+            android:layout_below="@id/viewfreck3"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck4"
+            android:text="@string/freck4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewfreck3"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+        <View
+            android:id="@+id/viewfreck4"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewfreck4"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat5"
+            android:layout_below="@id/viewfreck4"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck5"
+            android:text="@string/freck5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewfreck4"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+        <View
+            android:id="@+id/viewfreck5"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewfreck5"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat6"
+            android:layout_below="@id/viewfreck5"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewfreck6"
+            android:text="@string/freck6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewfreck5"
+            android:layout_toRightOf="@+id/imageViewfreckle1"
+            android:layout_toEndOf="@+id/imageViewfreckle1" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

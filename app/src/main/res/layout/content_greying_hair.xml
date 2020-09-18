@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_greying_hair"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.GreyingHair"
+    tools:showIn="@layout/activity_greying_hair">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewhairgrey"
+        app:srcCompat="@drawable/greyhair2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewgreyhairdesc"
+        android:text="@string/hairgreydesc"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="26dp"
+        android:fontFamily="serif"
+        android:layout_below="@+id/imageViewhairgrey"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonhairgrey"
+        android:text="Premature HairGreying Remedies"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        style="@style/Base.CardView"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_below="@+id/textViewgreyhairdesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

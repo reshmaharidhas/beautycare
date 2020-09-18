@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_hairdye_precaution"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HairdyePrecaution"
+    tools:showIn="@layout/activity_hairdye_precaution">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewprecaution1"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre1"
+        android:text="@string/hairdyepre1"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageViewprecaution1"
+        android:layout_toEndOf="@+id/imageViewprecaution1" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution2"
+        android:layout_below="@id/view1"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre2"
+        android:text="@string/hairdyepre2"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view1"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+    <View
+        android:id="@+id/view2"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution3"
+        android:layout_below="@id/view2"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre3"
+        android:text="@string/hairdyepre3"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view2"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+    <View
+        android:id="@+id/view3"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution4"
+        android:layout_below="@id/view3"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre4"
+        android:text="@string/hairdyepre4"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/view3"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+    <View
+        android:id="@+id/view4"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution5"
+        android:layout_below="@id/view4"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre5"
+        android:text="@string/hairdyepre5"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view4"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+    <View
+        android:id="@+id/view5"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution6"
+        android:layout_below="@id/view5"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre6"
+        android:text="@string/hairdyepre6"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view5"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+    <View
+        android:id="@+id/view6"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhairdyepre6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewprecaution7"
+        android:layout_below="@id/view6"
+        app:srcCompat="@drawable/dyebrush"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhairdyepre7"
+        android:text="@string/hairdyepre7"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view6"
+        android:layout_toRightOf="@+id/imageViewprecaution2"
+        android:layout_toEndOf="@+id/imageViewprecaution2" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

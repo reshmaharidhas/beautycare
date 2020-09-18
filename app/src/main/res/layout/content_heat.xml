@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_heat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Heat"
+    tools:showIn="@layout/activity_heat">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pricklyheatsun"
+            android:id="@+id/imageView21"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <ImageView
+            android:id="@+id/imageViewheat1"
+            android:layout_below="@id/imageView21"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/textViewheat1"
+            android:text="@string/prickly1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/imageView21"
+            android:layout_toRightOf="@+id/imageViewheat1"
+            android:layout_toEndOf="@+id/imageViewheat1" />
+        <View
+            android:id="@+id/viewheat1"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat1"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat2"
+            android:layout_below="@id/viewheat1"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat2"
+            android:text="@string/prickly2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat1"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat2"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat2"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat3"
+            android:layout_below="@id/viewheat2"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat3"
+            android:text="@string/prickly3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat2"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat3"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat3"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat4"
+            android:layout_below="@id/viewheat3"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat4"
+            android:text="@string/prickly4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat3"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat4"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat4"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat5"
+            android:layout_below="@id/viewheat4"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat5"
+            android:text="@string/prickly5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat4"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat5"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat5"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat6"
+            android:layout_below="@id/viewheat5"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat6"
+            android:text="@string/prickly6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat5"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat6"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat6"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat7"
+            android:layout_below="@id/viewheat6"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat7"
+            android:text="@string/prickly7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat6"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat7"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat7"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat8"
+            android:layout_below="@id/viewheat7"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat8"
+            android:text="@string/prickly8"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat7"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat8"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat8"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat9"
+            android:layout_below="@id/viewheat8"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat9"
+            android:text="@string/prickly9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat8"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat9"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat9"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat10"
+            android:layout_below="@id/viewheat9"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat10"
+            android:text="@string/prickly10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat9"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat10"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat10"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat11"
+            android:layout_below="@id/viewheat10"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat11"
+            android:text="@string/prickly11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat10"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat11"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat11"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat12"
+            android:layout_below="@id/viewheat11"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat12"
+            android:text="@string/prickly12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat11"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+        <View
+            android:id="@+id/viewheat12"
+            android:layout_width="match_parent"
+            android:layout_below="@id/textViewheat12"
+            android:background="@color/colorPrimary"
+            android:layout_height="1dp"/>
+        <ImageView
+            android:id="@+id/imageViewheat13"
+            android:layout_below="@id/viewheat12"
+            app:srcCompat="@drawable/pin"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+        <TextView
+            android:id="@+id/textViewheat13"
+            android:text="@string/prickly13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_below="@+id/viewheat12"
+            android:layout_toRightOf="@+id/imageViewheat2"
+            android:layout_toEndOf="@+id/imageViewheat2" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

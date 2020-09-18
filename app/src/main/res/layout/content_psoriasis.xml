@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_psoriasis"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.Psoriasis"
+    tools:showIn="@layout/activity_psoriasis">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewpso1"
+        app:srcCompat="@drawable/hospital"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewpso1"
+        android:text="@string/psoriasis1"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewpso1"
+        android:layout_toEndOf="@+id/imageViewpso1" />
+    <View
+        android:id="@+id/view1"
+        android:layout_below="@id/textViewpso1"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewpso2"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewpso2"
+        android:text="@string/psoriasis2"
+        android:textSize="16sp"
+        android:layout_below="@id/view1"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewpso2"
+        android:layout_toEndOf="@+id/imageViewpso2" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewpso2"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewpso3"
+        app:srcCompat="@drawable/hospital"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewpso3"
+        android:text="@string/psoriasis3a"
+        android:textSize="16sp"
+        android:layout_below="@id/view2"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@color/colorpalegreen1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageViewpso3"
+        android:layout_toEndOf="@+id/imageViewpso3" />
+    <TextView
+        android:id="@+id/textViewpso3b"
+        android:text="@string/psoriasis3b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewpso3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

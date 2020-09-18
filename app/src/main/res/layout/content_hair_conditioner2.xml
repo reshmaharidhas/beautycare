@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_hair_conditioner2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HairConditioner2"
+    tools:showIn="@layout/activity_hair_conditioner2">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/imageViewhaircon1"
+    app:srcCompat="@drawable/pin"
+    android:layout_width="25dp"
+    android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon1a"
+        android:text="@string/haircon1a"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon1"
+        android:layout_toRightOf="@+id/imageViewhaircon1"
+        android:layout_toEndOf="@+id/imageViewhaircon1" />
+
+    <TextView
+        android:id="@+id/textViewhaircon1b"
+        android:text="@string/haircon1b"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center" />
+    <View
+        android:id="@+id/view1"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/textViewhaircon1b"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhaircon2"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view1"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon2a"
+        android:text="@string/haircon2a"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_below="@id/view1"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon2"
+        android:layout_toRightOf="@+id/imageViewhaircon2"
+        android:layout_toEndOf="@+id/imageViewhaircon2" />
+    <TextView
+        android:id="@+id/textViewhaircon2b"
+        android:text="@string/haircon2b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view2"
+        android:layout_below="@id/textViewhaircon2b"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhaircon3"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view2"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon3a"
+        android:text="@string/haircon3a"
+        android:layout_below="@id/view2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon3"
+        android:layout_toRightOf="@+id/imageViewhaircon2"
+        android:layout_toEndOf="@+id/imageViewhaircon2" />
+    <TextView
+        android:id="@+id/textViewhaircon3b"
+        android:text="@string/haircon3b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view3"
+        android:layout_below="@id/textViewhaircon3b"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhaircon4"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view3"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon4a"
+        android:text="@string/haircon4a"
+        android:layout_below="@id/view3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon4"
+        android:layout_toRightOf="@+id/imageViewhaircon2"
+        android:layout_toEndOf="@+id/imageViewhaircon2" />
+    <TextView
+        android:id="@+id/textViewhaircon4b"
+        android:text="@string/haircon4b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view4"
+        android:layout_below="@id/textViewhaircon4b"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhaircon5"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view4"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon5a"
+        android:text="@string/haircon5a"
+        android:layout_below="@id/view4"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon5"
+        android:layout_toRightOf="@+id/imageViewhaircon2"
+        android:layout_toEndOf="@+id/imageViewhaircon2" />
+    <TextView
+        android:id="@+id/textViewhaircon5b"
+        android:text="@string/haircon5b"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <View
+        android:id="@+id/view5"
+        android:layout_below="@id/textViewhaircon5b"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+    <ImageView
+        android:id="@+id/imageViewhaircon6"
+        app:srcCompat="@drawable/pin"
+        android:layout_below="@id/view5"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+    <TextView
+        android:id="@+id/textViewhaircon6a"
+        android:text="@string/haircon6a"
+        android:textColor="@color/black"
+        android:layout_below="@id/view5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/imageViewhaircon6"
+        android:layout_toRightOf="@+id/imageViewhaircon2"
+        android:layout_toEndOf="@+id/imageViewhaircon2" />
+    <TextView
+        android:id="@+id/textViewhaircon6b"
+        android:text="@string/haircon6b"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewhaircon6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

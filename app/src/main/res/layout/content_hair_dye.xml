@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_hair_dye"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.reshmaharidhas.reshma.beautycare.HairDye"
+    tools:showIn="@layout/activity_hair_dye">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageViewhairdye"
+        app:srcCompat="@drawable/hairdye2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+    <TextView
+        android:id="@+id/textViewhairdyedesc"
+        android:text="@string/hairdyedesc"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/black"
+        android:layout_below="@+id/imageViewhairdye"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="serif"
+        android:textStyle="normal|bold" />
+    <Button
+        android:id="@+id/button1hairdye"
+        android:text="Precautions"
+        android:textSize="20sp"
+        android:layout_width="230dp"
+        android:textColor="@color/black"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewhairdyedesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright" />
+    <Button
+        android:id="@+id/button2hairdye"
+        android:text="Herbal Hair Dyes"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/button1hairdye"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.CardView"
+        android:background="@android:color/holo_blue_bright" />
+
+</RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
