@@ -1,0 +1,688 @@
+<resources>
+    <string name="app_name">BeautyCare</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bath">Bath</string>
+    <string name="lotion">Body Lotion</string>
+    <string name="cleansing">Cleansing</string>
+    <string name="moisturising">Moisturising</string>
+    <string name="nourishing">Nourishing</string>
+    <string name="toning">Toning</string>
+    <string name="astring">Astringent</string>
+    <string name="skintyp">Skin oil Types</string>
+    <string name="title_activity_cleansing">Cleansing</string>
+    <string name="acne">Acne</string>
+    <string name="spots">Spots</string>
+    <string name="boils">Boils/Pustules</string>
+    <string name="prickly">Prickly Heat</string>
+    <string name="blotch">Blotchiness</string>
+    <string name="freck">Freckles</string>
+    <string name="facemassage">Face Massage</string>
+    <string name="homef">Home Facial</string>
+    <string name="facep">Face Pack</string>
+    <string name="fhair">Facial Hair</string>
+    <string name="title_activity_bathcontent">Bathcontent</string>
+    <string name="title_activity_body_lotion">BodyLotion</string>
+    <string name="title_activity_moisturising">Moisturising</string>
+    <string name="title_activity_nourishing">Nourishing</string>
+    <string name="title_activity_toning">Toning</string>
+    <string name="title_activity_astringent">Astringent</string>
+    <string name="title_activity_skin_types">SkinTypes</string>
+    <string name="title_activity_acne">Acne</string>
+    <string name="title_activity_spots">Spots</string>
+    <string name="title_activity_boils_pustules">Boils and Pustules</string>
+    <string name="title_activity_prickly_heat">Prickly Heat</string>
+    <string name="title_activity_blotchiness">Blotchiness</string>
+    <string name="title_activity_freckles">Freckles</string>
+    <string name="title_activity_face_massage">Face Massage</string>
+    <string name="title_activity_home_facial">Home Facial</string>
+    <string name="title_activity_face_pack">Face Pack</string>
+    <string name="title_activity_facial_hair">Facial Hair</string>
+    <string name="eyecream">Eye Cream</string>
+    <string name="sparkeye">Sparkling Eyes</string>
+    <string name="title_activity_eye_cream">Eye Cream</string>
+    <string name="title_activity_sparkling_eyes">Sparkling Eyes</string>
+    <string name="scabies">Scabies</string>
+    <string name="ecz">Eczema</string>
+    <string name="psoriasis">Psoriasis</string>
+    <string name="allergy">Allergy</string>
+    <string name="title_activity_scabies">Scabies</string>
+    <string name="title_activity_eczema">Eczema</string>
+    <string name="title_activity_psoriasis">Psoriasis</string>
+    <string name="title_activity_allergy">Allergy</string>
+    <string name="title_activity_dandruff">Dandruff</string>
+    <string name="title_activity_hair_conditioner">Hair Conditioner</string>
+    <string name="title_activity_patchy_baldness">Patchy Baldness</string>
+    <string name="title_activity_greying_hair">Greying Hair</string>
+    <string name="title_activity_hair_dye">Hair Dye</string>
+    <string name="title_activity_hair_shampoo">Hair Shampoo</string>
+    <string name="title_activity_cleansing_cream">Cleansing Cream</string>
+    <string name="title_activity_scrolling_activityscrub">ScrollingActivityscrub</string>
+    <string name="title_activity_herbal_body_lotion">Herbal Body Lotion</string>
+
+    <string name="bath1">Oatmeal Scrub</string>
+    <string name="bath2">Sugar Scrub</string>
+    <string name="bath3">Body Scrub</string>
+    <string name="bath4">Milk Bath</string>
+    <string name="bs">Bath and Scrub</string>
+    <string name="bath5">Oatmeal Bath</string>
+    <string name="bath6">Honey Bath</string>
+    <string name="bath7">Starchy Bath</string>
+    <string name="bath8">Herb Bath</string>
+    <string name="bath9">Bath Oils</string>
+    <string name="bath10">Bubble Bath</string>
+    <string name="bath111">Bath Powder</string>
+    <string name="bath1212">Sugar Bath</string>
+    <string name="bath13">Special Massage</string>
+    <string name="lotion1">Rose and Lime Lotion</string>
+    <string name="lotion2">Blue Satin Body Lotion</string>
+    <string name="lotion3">Lavender Body Lotion</string>
+    <string name="lotion4">Almond Body Lotion</string>
+    <string name="lotion5">Body Massage Cream</string>
+
+
+    <string name="bath11">Mix together 1 tablespoon\n each of finely ground orange
+        peel and ground almonds.This is slightly abrasive and very cleansing.\n Take roughly a teaspoon in the palm of your hand,mix with
+    a little water and use the paste to scrub the skin then wash.</string>
+    <string name="bath22">Soap your face well,adding a small handful of sugar to the lather. Massage this in for couple of minutes,
+    then rinse off with warm water.This scrub is very useful for a spotty and sluggish looking skin</string>
+    <string name="bath33">Mix sugar and rose water in a pan over a low heat.\n When it begins to caramel remove from the heat and add to it
+    beaten yolk of an egg.Replace it on low heat for a minute and mix to it one teaspoon of lemon juice.This recipe is very useful for dry skins.</string>
+    <string name="bath44">Add a handful of powdered milk to the bathwater</string>
+    <string name="bath55">Use one tablespoon of oatmeal in bath.Oatmeal and bran contain oils and vegetable hormones which oothe and
+    soften the skin.</string>
+    <string name="bath66">Add a teaspoon of honey to your bath water.Relieves tiredness.</string>
+    <string name="bath77">Mix a few tablespoons of laundry starch and a teaspoon of glycerine and add to bath water.It leaves your skin
+    beautifully smooth,tight and soft</string>
+    <string name="bath88">Lavender,hyssop,mint,borage,rosemary,balm or camomile are useful herbs which can be used in bath water either separately
+    or in a mixture.</string>
+    <string name="bath99">Add any oil that is almond,olive or sunflower to bath water. Baby oil or mineral oil is not suitable as
+    it cannot be absorbed by the skin.</string>
+    <string name="bath1010">Mix together one Egg,\n 1/2 cup shampoo and 1 teaspoon gelatine with an electric beater.Add the mixture to bath
+    water when the tap is running.</string>
+    <string name="bath111m">Mix the following in a jar and use a little quantity in bathwater:\n
+    3 tablespoons Oatmeal flour,\n 1tablespoon oatmeal bran,\n 1 tablespoon Ground almonds,\n 1 tablespoon Wheat flour,\n
+        Perfume 5 to 6 drops.</string>
+    <string name="bath1212m">
+        Collect the following:\n Sugar-2 tablespoons,\n Water-2 tablespoons,\n Egg yolk-beaten-One,\n Lemon juice-1 teaspoon\n
+    Put sugar and water in a pan,over a low heat.When it begins to caramelise,remove from the heat and add egg yolk. Replace it on the low heat for
+    a minute and mix to it lemon juice.\n This is very ideal scrub for slightly dry skin or for a spotty and sluggish looking skin.\n To apply sugar scrub,
+    soap your face well, adding a small handful of sugar to the lather. Massage for a couple of minutes, then rinse off with warm water.</string>
+    <string name="bath13m">
+        Mix the following ingredients to make a paste and rub thoroughly to cleanse and stimulate the skin leaving it soft and shiny:\n
+    Dried grounded and sieved lemon peel-1 tablespoon,\n Ground almond-1 tablespoon,\n Salt n ground allspice-a pinch of each,\n
+    Wheatgerm flour-4 tablespoon,\n Ground thyme-1 tablespoon,\n Almond oil-sufficient to make paste,\n Jasmine Oil(to perfume)-
+        Few drops\n</string>
+    <string name="lotion1ing">Rose water-3 tablespoons,\n Glycerine-1 tablespoon,\n Lime juice-2 tablespoons</string>
+    <string name="lotion1m">Apply this body lotion after bath if you have a dry skin.The proportion of the lotion can be changed to suit the skin.
+    This lotion does not feel sticky and mixes into your skin.Lotion can be stored in refrigerator.</string>
+    <string name="lotion2ing">Glycerine-1 teaspoon,\n Water-4 tablespoons,\n Soap flakes-3 tablespoons,\n Witch-hazel-1 teaspoon,\n Olive oil-4 teaspoons,\n
+    Blue Colouring-few drops,\n Perfume-few drops</string>
+    <string name="lotion2m">Put the soap flakes and water in a saucepan and heat.When soap flakes get dissolved remove from heat and add glycerine,
+    olive oil and witch hazel.\n Stir until it cools and then add the blue colouring and some perfume.Applying this non-greasy body lotion after a bath
+    leaves the skin glowing like satin.</string>
+    <string name="lotion3ing">Borax-1 teaspoon,\n Rose water-1 cup,\n Olive oil(warm)-2 tablespoons,\n Lavender water-1 cup</string>
+    <string name="lotion3m">Lavender water is made by infusing a handful of lavender flowers in two cups of boiling water to make a
+    concentrate of one cup.Now dissolve borax in rose water,then slowly add olive oil beating constantly.\n When all the oil had been added to the water and
+    it forms an emulsion ,add lavender water.Let it stand for an hour and then strain and use.</string>
+    <string name="lotion4ing">Lanolin-3 teaspoons,\n Almond oil-1 teaspoon,\n Petroleum Jelly-1 teaspoon,\n Vegetale lard-1 teaspoon,\n Glycerine-2 teaspoon,\n
+    Water-10 tablespoons,\n Soap flakes-1 teaspoon,\n Almond essence-few drops</string>
+    <string name="lotion4m">Heat the oils and water separately. Remove them from heat and mix together.Pour the mixture into a bottle and
+    shake vigorously then add to it the perfume.</string>
+    <string name="lotion5ing">Lanolin-4 tablespoons,\n Sunflower oil-4 tablespoons,\n Rose water-9 tablespoons</string>
+    <string name="lotion5m">Heat the oils together and slowly add the heated water.Add a tablespoon of winter green or camphor oil.\n To make the
+    cream lighter simply add two tablespoons of petroleum jelly.\n</string>
+
+
+    <string name="cleansedesc">Cleansing is the first step in caring for your skin. Perspiration, grease, dust, stale makeup, dirt must be
+        completely removed.Cleansing cream is useful for removing stale make-up which has a waxy base.</string>
+    <string name="cleanse1ing">Bees-wax-1/2 tablespoon,\n Emulsifying wax-1 tablespoon,\n Baby oil-4 tablespoons,\n Coconut oil-2 tablespoons,
+        \n Water-2 tablespoons,\n Borax-1/4 tablespoon,\n Witch hazel-1 tablespoon</string>
+    <string name="cleanse1m">Mix waxes and oil into an enamel bowl and melt slowly over a pan of boiling water.Heat the water and borax in a
+        separate bowl till the borax is completely dissolved. Add witch-hazel. When the waxes are melted, remove both the bowls from the heat
+        and mix in water stirring continuously.\n Beat until the mixture thickens and cools.</string>
+    <string name="cleanse2ing">Bees wax-1.5 tablespoon,\n Emulsifying wax-1 tablespoon,\n Mineral oil-4 tablespoons,\n Rose water-6 tablespoons,\n
+    Borax-1/2 teaspoon,\n Rose oil(perfume)-few drops</string>
+    <string name="cleanse2m">Melt water and oil together and at the same time, heat the water and borax and make sure that borax is completely dissolved.\n
+    Remove both bowls from heat. Continue stirring until white cream begins to form. Add few drops of rose oil when mixture begins to cool. Carry on beating
+    until mixture thickens</string>
+    <string name="cleanse3ing">Bees wax-3 teaspoons,\n Coconut oil- teaspoons,\n Olive/Mineral oil-5 teaspoons,\n Cucumber juice-4 tablespoons,\n
+    Glycerine-1 teaspoon,\n Borax-a pinch,\n Green colouring-1 drop</string>
+    <string name="cleanse3m">Melt oils and wax in the usual way over a plan of boiling water. Simultaneously, heat cucumber juice, glycerine,
+        colouring and borax in a separate bowl. Dissolve borax completely. When the contents of both bowls are melted, add water drop by drop
+        to the oil stirring continuously. Remove from heat and beat till the mixture thickens.\n Keep the cream in fridge as cucumber juice rots
+        quickly. Make the cream in small quantity.</string>
+    <string name="cleanse4ing">Lanolin-1/2 tablespoon,\n Petroleum jelly-1 tablespoon,\n Mineral oil-4 tablespoon,\n Water-10 tablespoons,\n Violet
+    extract-5 drops</string>
+    <string name="cleanse4m">Melt two tablespoons vegetable lard and mix it to the mixture of two tablespoons corn oil and four tablespoons sunflower oil,
+    stirring constantly. When cooled, mix few drops of perfume. Store this pale gold cream in refrigerator.\n\n</string>
+
+    <string name="moistdesc">The drier your skin,the more lavish you should be in use of moisturiser.Moisturiser is applied after cleansing and
+    toning,and always before applying make-up.</string>
+    <string name="title_activity_almond_oil_moisturising_cream">Almond Oil Moisturising Cream
+    </string>
+    <string name="title_activity_herb_cream">Herb Cream</string>
+    <string name="title_activity_avacado_almond_cream">Avacado Almond Cream</string>
+    <string name="title_activity_sunflower_cream">Sunflower Cream</string>
+    <string name="title_activity_jasmine_moisturising_cream">Jasmine Moisturising Cream</string>
+    <string name="title_activity_nourishing_creams">Nourishing Creams</string>
+    <string name="title_activity_tonics">Herbal Skin Tonics</string>
+    <string name="title_activity_astringent_lotions">Astringent Lotions</string>
+    <string name="title_activity_heat">Prickly Heat</string>
+    <string name="title_activity_face_mask">Face Mask</string>
+    <string name="title_activity_teeth_cleanser">Teeth Cleansers</string>
+    <string name="title_activity_mouth_wash">Mouth Wash</string>
+    <string name="title_activity_cleansing_lotion">Cleansing Lotion</string>
+    <string name="title_activity_patchy_remedies">Patchy Baldness Remedies</string>
+    <string name="title_activity_hair_conlist">Hair Conditioners</string>
+    <string name="title_activity_hair_conditioner2">Hair Conditioners</string>
+
+
+    <string name="acne1">Rub a piece of sandalwood on a clean stone,using a little rose water or cucumber juice to make a paste.This pack will help to
+        relieve pimples and acne.</string>
+    <string name="acne2">Slake lime in water and mix 2 tolas of finely powdered sulphur.The mixture should be boiled till about half is left.A light coat of
+        fluid should be applied to the acne</string>
+    <string name="acne3">Grind the seeds of Khurfa in milk and apply to the face.</string>
+    <string name="acne4">Grind yellow sea shells(Kauris) and mix with butter and a small quantity f vinegar to make a paste.Apply the paste to affected parts
+        of your face.</string>
+    <string name="acne5"> Apply cucumber juice mixed with rose water on the face.</string>
+    <string name="acne6">Boil 50gms leaves of raspberry,strawberry or blackberry in 1 litre of water for 3 minutes.This makes a very pleasant and
+        soothing wash for itching skin caused by pimples,acne or scabs.</string>
+    <string name="acne7">Make a paste of 1 teaspoon pure sulphur powder, 2 tablespoons Fullers Earth and one egg white.Use this mask everyday to cure acne.</string>
+    <string name="acne8">Mash and sieve onion.Mix onion juice into paste with one teaspoon Fullers earth and 1 teaspoon honey.This pack is good
+        to prevent acne and blemishes.</string>
+
+    <string name="spots1">Rub the spots with raw garlic, this will kill them instantly.</string>
+        <string name="spots2">Melt 25gms of bees-wax on low heat.Add 100gms of honey to it.Stir until cool,then pot and seal tightly.\n Keep in a
+        cool place.Apply to affected spots at night,then wash it off the next morning.</string>
+        <string name="spots3">Mix the following ingredients together to make a thick paste.\n Wheatgerm-1 teaspoon,\n Clear honey-2 tablespoons,\n Sunflower oil-1 teaspoon,\n Fresh lemon juice-
+        1 teaspoon\n Apply it in small circular rubbing movements to the face and neck and leave for 5 minutes,then wash off with warm water.</string>
+
+
+    <string name="boil1">Grind the bark of the Neem tree,mix it with a little water and apply the paste on the affected area.</string>
+    <string name="boil2">Grind together bark of the castor tree and the root of Biskhapra and apply as a paste.</string>
+    <string name="boil3">Avoid sour or fatty foods.\n</string>
+    <string name="boil4">Among fruits,take melon as it helps cleanse the blood.</string>
+    <string name="boil5">Take a leaf of Peepal tree,smear it with ghee and apply as a lukewarm bandage on the boil,which shall burst in its
+    preliminary stage and subside.</string>
+
+    <string name="prickly1">Dissolve Fullers Earth in water to make a thin paste. It should be smeared over the affected parts. When the paste
+    dries, wash it off with cold water</string>
+    <string name="prickly2">Apply green henna ground in water on the affected skin.</string>
+    <string name="prickly3">Grind leaves of Neem in water and apply on the affected skin.</string>
+    <string name="prickly4">Take a small piece of sandalwood and rub it to a paste on a stone with rose water.Mix it to a pinch of
+    powdered alum and apply to the affected skin twice or thrice a week depending upon the condition of prickly heat.</string>
+    <string name="prickly5">Mix one teaspoon each of honey, fresh lemon juice/orange juice and cod liver oil. Take three times a day.</string>
+    <string name="prickly6">Pulp the comfrey leaves with honey and garlic and apply.</string>
+    <string name="prickly7">Rub half a lemon on the affected skin.</string>
+    <string name="prickly8">Apply a poultice of crushed fenugreek seeds boiled in water for ten minutes.</string>
+    <string name="prickly9">Crush one handful of fresh linseeds and add to it boiling water to make a paste. Apply thickly and cover.</string>
+    <string name="prickly10">Soak a slice of bread in boiling water. Add one teaspoon of mustard powder in the water. Apply this bread
+    poultice on affected parts.</string>
+    <string name="prickly11">Apply extract of calendula flower on the affected skin.</string>
+    <string name="prickly12">Grate a raw carrot into 1 tablespoon of wheat germ oil. Apply as a thick poultice and leave over.</string>
+    <string name="prickly13">Mix the powdered bark of slippery elm with eucalyptus oil to make a thick soothing poultice. Effective for boils, pustules.\n</string>
+
+    <string name="blotch1">Melt bees-wax,emulsifying wax, almond oil, lanolin and coconut oil on medium heat and stir it. Now add orange
+    flower water gradually to it, but keep on stirring. When the mixture becomes thick, remove it from the heat and when cold fill in a
+        bottle. Cover your skin when going out with this lotion.</string>
+    <string name="blotch2">Melt lanolin, petroleum jelly and mineral oil on a medium heat. Heat clean water and violet extract in another bowl
+    and mix the contents of the two containers and stir till it cools.</string>
+
+    <string name="freckdesc">Freckles are brownish spots on the skin due to precipitation of pigments or exposure to sun. When skin is sensitive
+    to UV rays,freckles appear on it.\n</string>
+    <string name="freck1">Grind in milk yellow mustard seeds and apply to the face at night. Wash your face next morning.</string>
+    <string name="freck2">Mix equal quantity of turmeric and sesame seeds. Add water, grind to a paste and apply to the face.</string>
+    <string name="freck3">Take a watermelon. Make a hole in its rind and introduce some grains of rice in it. Take out the rice after a week,
+    grind to a paste and apply on the face.</string>
+    <string name="freck4">Mix 4 teaspoons of sour milk with one teaspoon of ground oatmeal and 1 teaspoon of freshly grated horse-radish. Apply the
+    paste to the freckles, taking care to avoid eyes as the fumes can cause stinging. Leave the paste on the affected area for
+    30 minutes, then wash off.</string>
+    <string name="freck5">Grind pumpkin seeds and mix with olive oil to make a paste and apply. This keeps the skin soft and fair and reduces
+    freckles.</string>
+    <string name="freck6">Raspberry mask clears blemishes due to freckles. Mix 25 gms of mashed raspberries with one teaspoon each of plain
+    yoghurt and finely ground oatmeal. Leave on the face for 10 minutes.\n</string>
+
+    <string name="facemasgdesc">Facial massage is an effective way to counter wrinkles.Massage is a slow process and its results are obvious
+    only when it is continued for a longer period. Massage is effective if the skin is clean.\n Facial massage reduces unattractive fleshiness,
+    tightens the tissue of the muscles and increases blood circulation.\n If the skin is dry, use a good moisturiser before massage. If the
+    skin is damp, it is advisable to use some astringent lotion before massage.</string>
+    <string name="facemask1a">Egg and Yeast Mask</string>
+    <string name="facemask1b">Mix together egg yolk, 1 tablespoon Brewers yeast and 1 teaspoon sunflower oil into a paste and apply. Leave it
+    on for 15 minutes. Rinse it off with milk. This pack is good for spotty skin.</string>
+    <string name="facemask2a">Lecithin Mask</string>
+    <string name="facemask2b">Mix together 1 tablespoon lecithin, 2 teaspoons peach(or any fruit) juice and 1 teaspoon wheat-germ oil
+    into a paste and apply.</string>
+    <string name="facemask3a">Almond Mask</string>
+    <string name="facemask3b">Mix together 2 teaspoons ground almonds, 1 teaspoon rose water and 1/2 teaspoon honey into a paste and apply
+    on the face. Leave it for 15 minutes and rinse off with rose water.</string>
+    <string name="facemask4a">Apple Mask</string>
+    <string name="facemask4b">Blend 1/2 peeled and sliced apple, 1 tablespoon honey, 1 teaspoon ascorbic acid, 1 egg yolk, 1 tablespoon Cider
+    Vinegar and 3 tablespoons oil until completely smooth. Apply on the face and leave for 30 minutes, then rinse off. This is effective way for all
+    skins.</string>
+    <string name="facemask5a">Avocado Mask</string>
+    <string name="facemask5b">Avocado is rich in oil. It can be used to soothe and smooth dry skin.\n Mash a ripe avocado with one teaspoonful of lemon
+    juice and white of an egg. Leave it on the face for 20 minutes and wash.</string>
+    <string name="facemask6a">Butter Milk Mask</string>
+    <string name="facemask6b">Mix 1 or 2 tablespoons oatmeal with enough butter milk and apply this on the face. Leave it for 15 minutes, then
+    rinse off.</string>
+    <string name="facemask7a">Honey Mask</string>
+    <string name="facemask7b">Honey is excellent for smoothing the skin and softening lines. Spread it as a film all over the face. Leave for 15
+    minutes and remove with cottonwool pads and warm water.\n For <b>dry skins</b>, Mix to a paste 1/2 teaspoon honey, 1 egg yolk, 1 tablespoon dry
+    skimmed milk and apply to the face and neck. Leave it for 20 minutes, then rinse off with tepid water.\n For <b>oily skins</b>, mix
+    1/2 teaspoon honey with a dessertspoonful of lemon juice. Mix to a paste with Fullers Earth(<i>Multani mitti</i>),adding water.\n</string>
+
+    <string name="homefacialdesc">If you cannot afford the regular saloon treatments, then best thing is to give yourself a homefacial. A regular facial
+    once a fortnight is a good habit which will ensure a youthful and fresh skin for a long time.\n</string>
+    <string name="homefacial1">Tie your hair away from the face and neck or wear a bandeau.</string>
+    <string name="homefacial2">Cleanse your face and neck with cleansing milk and wipe off, first with a facial tissue and then with a wet
+    towel.</string>
+    <string name="homefacial3">Apply cream in dots all over the face and blend it thoroughly then massage your face and neck in upward direction.</string>
+    <string name="homefacial4">Prepare a face-pack suited to your skin type and apply on the face.</string>
+    <string name="homefacial5">When it is dry, wash your face and neck with cold water, keeping your eyes closed. Dry your skin and apply skin
+    tonic.</string>
+    <string name="homefacial6">If you have an important date, use skin tonic after facial, then apply moisturiser and make-up.\n</string>
+
+    <string name="facepack1"><b>For normal skin:</b> Mix 2 tablespoons of gram flour and 4 tablespoons of milk in a clean container.
+    Apply all over the face and neck leaving area around the eyes and lips.Leave it on for ten minutes and wash off.</string>
+    <string name="facepack2"><b>For oily skin:</b> Mix 2 tablespoons honey with 1 teaspoon lemon juice and 1 teaspoon rose water. Apply
+    all over the face and leave for five minutes then wash off.</string>
+    <string name="facepack3"><b>For dry skin:</b> Mix 1 tablespoon milk powder with 1 teaspoon gram flour and 2 tablespoons rose water. Leave it
+    on for 15 or 20 minutes, then rinse off.</string>
+    <string name="facepack4"><b>For very dry skin:</b> Mix together the yolk of an egg, a teaspoon of almond oil, a teaspoon of milk cream
+    and apply for 10 to 15 minutes, then wash off.</string>
+    <string name="facepack5"><b>For tanned skin:</b> Grind ten almonds to a paste and mix to a teaspoon of curd. Use this pack to remove tan and soften skin.</string>
+    <string name="facepack6"><b>For dull skin:</b> Mix Fullers Earth,brewers yeast and rose water to form 2 tablespoons of paste. Apply for 15
+    minutes.It nourishes the skin.</string>
+    <string name="facepack7"><b>For pimply skin:</b> Rub a piece of sandalwood on a clean stone using a little rose water or cucumber juice.
+    Apply the paste thus formed. This pack gives a tingling fresh feeling too.</string>
+    <string name="facepack8"><b>For blemished skin:</b> Add cucumber juice to any of these powders such as gram flour, kaolin, Fullers Earth and
+    milk powder to form a paste. This will also tighten the skin pores.\n</string>
+
+    <string name="lip1a">Bees wax grated-2 teaspoons,\n Coconut oil-2 teaspoons,\n Castor oil-1 teaspoon</string>
+    <string name="lip1b">Melt the bees-wax and coconut oil together in a bowl and add castor oil and stir well. Remove from heat. Pour in
+    small jars.Very useful for sore and chapped lips.</string>
+    <string name="lip2">Lip Gloss</string>
+    <string name="lip2m">Put 1/2 teaspoon of grated bees-wax in a small basin with 2 tablespoons of cocoa butter. Place the basin in
+    a saucepan containing a little water and heat until the wax melts,stirring well.</string>
+    <string name="lip3">Lip Protective Cream</string>
+    <string name="lip3m">Melt 2 teaspoons bees-wax in a small bowl.Mix to it 4 teaspoons almond oil and beat. Remove from heat and
+    stir in warm rose water./n Stir until the mixture cools and thickens. Bottle while still warm. This is an excellent
+    everyday protective Cream.\n</string>
+
+    <string name="teethdesc">Smile is an important asset.Brush teeth thoroughly atleast twice a day. Clean your teeth before going to bed.</string>
+    <string name="teethbutton1">Teeth Cleansers</string>
+    <string name="teethbutton2">Mouth Wash</string>
+    <string name="teethbutton3">Cleansing Lotion</string>
+    <string name="teeth1">Mix 3 tablespoons bicarbonate of soda with 2 tablespoons salt and use as a tooth powder. To make
+    recipe more effective, add pulverised orange/lemon peel to the mixture to whiten the teeth.</string>
+    <string name="teeth2">Mix the ashes of burnt bread, charcoal, burnt rosemary, honey, salt and barley/millet. Very effective to clean
+    the teeth.</string>
+    <string name="teeth3">Rub strawberries over the teeth,this will clean the teeth.</string>
+    <string name="mouthwash1b">Vinegar-1/4 cup,\n Wine-1/2 cup,\n Honey-1/2 cup,\n Powdered cloves-1 teaspoon</string>
+    <string name="mouthwash1a">Take the following ingredients, boil them together and use as mouth wash when it cools:</string>
+    <string name="mouthwash2">Stir 3 drops of essential oil of lavender into 1 teaspoon of clear honey and add to it 1/4 cup of boiling
+    water,then dilute with cold water to make a warm solution.</string>
+    <string name="mouthcleansinglotion">Mix two teaspoons of sea salt and two teaspoons hydrogen peroxide in a large glass of warm
+    water.Rinse your mouth.\n This is an effective recipe to keep teeth sparkling.</string>
+
+    <string name="eyedesc">Bright eyes indicate good health and vitality. Sleep is vital for bright,shining eyes. Lack of sleep can
+    make the eyes look red and puffy.\n Skin around the eyes is very sensitive.With fingers,slowly massage the area around the eyes with an
+    eye cream.</string>
+    <string name="eyecreaming">Lanolin-1 tablespoon,\n Almond oil-1.5 tablespoon,\n Powdered lecithin-1 teaspoon,\n Cold water-2 tablespoons</string>
+    <string name="eyecreammethod">Melt lanolin in a pan held over boiling water and add almond oil to it. Remove from heat and slowly
+    add the powdered lecithin. Now add to it cold water, drop by drop. Mix it all together with a wooden spoon. Do not use perfume,
+    as this may cause allergy.</string>
+    <string name="sparkeye1">Grate half cucumber, strain it and keep in the refrigerator to cool. Mix to it an equal quantity of rosewater.
+    Take a piece of cotton wool dipped in the lotion and place on your eyes atleast twice a day. Apart from relaxing eyes, this will also
+    help to lighten the darkened area around the eyes.</string>
+    <string name="sparkeye2">Dip cotton wool in the solution of witch-hazel and use as eye pads. This is very effective for reducing puffiness
+    of eyes.</string>
+    <string name="sparkeye3">Almond, apricot and coconut oils are good for lubricating delicate skin around eyes. Frequent gentle massage will
+    help to arrest and disperse the lines.</string>
+    <string name="sparkeye4">The juice from freshly crushed mint leaves will help eradicate dark shadows beneath the eyes.</string>
+    <string name="sparkeye5">Mix 1 tablespoon of castor oil with 2 tablespoons of almond oil to make an excellent eye make-up remover.
+    A drop of perfectly fresh castor oil smeared along the lids will reduce flaky swelling, irritation and puffiness of eyes.</string>
+    <string name="sparkeye6">Grated raw potato can be used to ease sore puffy eyelids and reduce under-eye puffiness. Either strain the
+    juice from a grated potato and saturate cotton wool pads with it or lay the grated vegetable on the eye between layers of muslin.
+    Slices of raw potato or compress of 1 tablespoon of crushed nasturtium seeds added to 1 tablespoon of grated potato will soothe
+    swollen eyelids and reduce swelling.</string>
+    <string name="sparkeye7">Add 1 tablespoon of marigold petals in 125 ml of boiling water. Strain the liquid then simmer one peeled
+    and finely chopped apple in it. When it is soft, drain the apple, allow it to cool and when of a comfortable temperature lay it between
+    two layers of gauze. Place on the eyes and leave for ten minutes.</string>
+    <string name="sparkeye8">Apple juice which is smooth, silky and rich in pectin can also be used to wipe sore eyes and keep eyes
+    sparkling. Always extract juice from freshly cooked apples.</string>
+
+    <string name="dandruffdesc">Dandruff is one of the major disorders of scalp. The uppermost layer of the scalp is being
+    continuously shed off called as dandruff. Dandruff if neglected for a long time, leads to baldness.</string>
+    <string name="title_activity_danduff_remedy">Dandruff Remedies</string>
+    <string name="dandruff1a">Hot Oil Therapy</string>
+    <string name="dandruff1b">Massage hot oil into the scalp at bedtime. Next morning, rub lemon juice mixed with cosmetic vinegar (mix 1:2 ratio)
+     into the scalp before an hour.</string>
+    <string name="dandruff1c">Give the hair a good wash with egg shampoo.\n Egg shampoo is one of the oldest beauty recipes.Eggs are full of
+    proteins. Beat up 1 or 2 eggs with a cup of water and massage thoroughly into your wet hair and leave it on for 5-10 minutes. Rinse off thoroughly
+     and do not use hot water for rinsing.</string>
+    <string name="dandruff1d">Another method is to beat 1 egg in a cup of water and mix it to 1 or 2 tablespoons of shampoo. As a last rinse,
+    use the juice of one lemon in a cup of hot water. Continue this treatment once a week for three months.</string>
+    <string name="dandruff2a">Stroking the Hair</string>
+    <string name="dandruff2b">Give hair a hundred strokes every night with brush or comb. Remember that root of each hair is the
+    sebaceous gland that ooze oil to keep the hair soft and gleaming. Take the brush from root of hair to very end of the hair so that
+    oil is carried to each hairtip.\n Hair should be brushed or combed gently or lightly when wet as there is a danger of being stretched or
+    weakened.</string>
+    <string name="dandruff3a">Hair Nourishing Recipe</string>
+    <string name="dandruff3b">Boil 5 teaspoons of dried used tea leaves in lime water and use it as the last rinse after shampoo, giviing the
+    hair a shine.</string>
+    <string name="dandruff4a">Anti-dandruff Lotion</string>
+    <string name="dandruff4b">Mix 2 tablespoons of cosmetic vinegar and 6 tablespoons of hot water. Dab with cotton wool into scalp, parting
+     hair with a comb at bedtime. Next morning wash the hair with shampoo.After the hair is cleansed, pour over as last rinse a mixture
+    of 3 tablespoons of cosmetic vinegar and 1 cup of hot water. Do this twice a week for 3 months.</string>
+    <string name="dandruff5a">Apple Juice Tonic</string>
+    <string name="dandruff5b">Mix together 1 tablespoon of pure apple juice and 3 tablespoons warm water and massage into the scalp, three
+    times a week. This recipe helps to fight dandruff.</string>
+    <string name="dandruff6a">Rosemary and Borax Lotion</string>
+    <string name="dandruff6b">Mix 5 tablespoons of strong rosemary infusion with a pinch of borax and massage into the scalp daily.</string>
+    <string name="dandruff7a">Nasturtium Tea</string>
+    <string name="dandruff7b">Mix 1 drop of essential oil thyme with nasturtium tea to make a strong infusion. It should be used to rinse the hair or
+    massage the scalp to cure dandruff.\n</string>
+
+    <string name="hairconditionerdesc">Hair reflects ones general health. Tension, overwork and illness can effect your hair.\n Breaking hair or split ends
+     has usually been badly treated due to over-exposure to sun, over-perming, amateur bleaching, frequent and inexpert use of tints, colourants.\n A good hair
+    conditioner helps these problems.</string>
+    <string name="haircon1a">Quick Hair Conditioner</string>
+    <string name="haircon1b">Mix together 1 egg, 2 tablespoons castor oil, 1 teaspoon vinegar and 1 teaspoon glycerine. Beat constantly and massage
+    into the scalp. Wrap your head in a hot towel and steam the hair, then wash off. This conditioner will make your hair look thicker, shiny, soft
+    and manageable.</string>
+    <string name="haircon2a">Honey Conditioner</string>
+    <string name="haircon2b">Beat up one egg and mix 1 teaspoon honey and 2 teaspoons coconut or olive oil. Massage it well into the
+    scalp. Steam the hair and then shampoo. This leaves the hair easy to manage and looking lovely.</string>
+    <string name="haircon3a">Alcoholic Conditioner</string>
+    <string name="haircon3b">Beat up one egg and 2 tablespoons brandy. Massage into the scalp. Leave for 10 minutes and rinse off. The egg nourishes
+    and the brandy stimulates the hair.</string>
+    <string name="haircon4a">Gypsy Conditioner</string>
+    <string name="haircon4b">Steep a medium-sized onion. Cut into slices in half a cup of rum. Leave for 24 hours. Remove the onions and use
+    remaining liquid for massaging scalp. This is an effective liquid for those afflicted with dandruff and losing hair.</string>
+    <string name="haircon5a">Powerful Hair Tonic</string>
+    <string name="haircon5b">Chop 100 gms each nettle leaves and nasturtium flowers, 50 gms each nasturtium seeds and leaves. Put them in a glass
+    jar with 600ml rum, keep for three weeks, strain, extract all the liquid and store. Massage frequently into the scalp to condition the hair,preferably
+    at night.</string>
+    <string name="haircon6a">Home-made Brilliantine</string>
+    <string name="haircon6b">Melt in a bowl over hot water 50 gms white wax, then beat in 400ml olive oil followed by 4 drops each bergamot and
+    clove oil and 2 drops geranium oil. Remove from heat, allow to cool and store.\n</string>
+
+    <string name="patchydesc">The sudden appearance of small bald circles on the scalp is patchy baldness. It is alarming when the patches grow
+     and join up. Premature baldness is generally hereditary. But it takes months for the full growth.</string>
+    <string name="patchy1">Preserve mangoes in oil for a period of one year and rub this oil on the scalp.</string>
+    <string name="patchy2">Grind 2 or 3 cloves of garlic together with a pinch of colloyrium and applied to the hairless patch. In case of irritation,
+     smear butter over the patch.</string>
+    <string name="patchy3">Dissolve a few grains of potassium permanganate in a few drops of water, and apply to the bald patches a few times
+    a day. Continue for a minimum for three weeks.</string>
+    <string name="patchy4">Grind tender leaves of Caper Berry into paste and apply these on the bald patches.</string>
+    <string name="patchy5">Wash the bald patch with juice of Amla. Rub finely powdered Salmiac mixed with butter on it.</string>
+    <string name="patchy6">Put some curdled milk in a copper vessel. The vessel should be without tin coating.Mix to it stave made of Neem
+    wood.With repeated churnings, the curdled milk turns green. It should be applied to the hairless patches for a few days.</string>
+    <string name="patchy7">Grind 50 gms leaves of Tamarish and make into pellets. Burn in boiling mustard oil, then massage on the bald patches.\n</string>
+
+    <string name="hairgreydesc">Most of the young men and women are afflicted with premature greying of hair and are left out with option of
+    hair dyeing. Grey hair should not be pulled, as it creates more grey hair near. Clip them off with scissors near the root.\n</string>
+    <string name="hairgrey1">Take Giloya and Gokhroo in equal parts and mix with honey. One teaspoon should be taken thrice a day.</string>
+    <string name="hairgrey2">Grind to a two parts Bhringaraja powder, one part Black Sesame seeds and one part Amla. Take one teaspoonful of powder
+    with milk and sugar twice daily for 4 to 6 weeks.</string>
+    <string name="hairgrey3">Grind to a paste equal quantity of old Mandur, Amla and Hibiscus flowers. The paste should be applied on the head. When
+    dry,the hair should be washed with water, in which Amla has been soaked overnight.</string>
+    <string name="hairgrey4">Grind 2 parts Amla, 2 parts Harad &amp; Mandur into fine powder. A spoonful of powder should be wetted with
+    water.Keep the paste in iron vessel overnight and apply to the hair next morning. When the paste is dry, apply oil to the hair, then the
+    paste should be washed off thoroughly with cold water.</string>
+    <string name="hairgrey5">Rinse hair with saffron, ginger root, marigold or red oak bark. Use red henna to dye the hair.</string>
+    <string name="hairgrey6">Rinse hair with rosemary, sage or walnut leaves and shell.\n</string>
+    <string name="title_activity_grey_hair_remedies">Grey Hair Remedies</string>
+
+    <string name="hairdyedesc">Hair dyeing is an art and has to be performed with care. Using it skillfully make the hair looks attractive and natural.
+    Herbal dyes are not permanent. Herbs used for dyeing are henna, walnut bark, tea-leaves.</string>
+    <string name="title_activity_hairdye_precaution">Precautions</string>
+    <string name="title_activity_herbal_hairdye">Herbal Hair Dyes</string>
+    <string name="title_activity_chemical_hairdye">Chemical Hair Dyes</string>
+
+    <string name="hairdyepre1">Wash your hair clean, remove all grease.</string>
+    <string name="hairdyepre2">Apply the dye as per instructions with a brush.</string>
+    <string name="hairdyepre3">Dye leaves a black colour on fingers and nails which may mar the beauty of hands. So use rubber gloves.</string>
+    <string name="hairdyepre4">Do not apply the dye on the skin of your scalp. Apply on hair only.</string>
+    <string name="hairdyepre5">Let the dye remain on your hair for about an hour, wash it off with shampoo.</string>
+    <string name="hairdyepre6">Chemicals used in dyes sometimes cause reaction on the skin. May cause a burning sensation. Reddishness starts with
+    ears, spreads to eyes and face and may begin to swell.\n Hence it is advisable to take a skin test by applying a small quantity of dye on neck or
+    elbow skin where the skin is sensitive.</string>
+    <string name="hairdyepre7">If there is no reaction, go ahead. In case of reaction, <b>Consult doctor immediately.</b>\n</string>
+
+    <string name="hairdye1">Grind dried henna leaves to a powder. Add water to make a paste. Apply paste to the hair, let it dry and then wash off
+    with cold water.\n Henna is to be used twice during one application as it does not give colour in one attempt.</string>
+    <string name="hairdye2">Soak walnut bark in water for 12 hours, then strain it and add few drops of ammonia.</string>
+    <string name="hairdye3">Tea leaves are boiled in water till it leaves it colour. Let it cool. Apply on hair. This is not a permanent hair dye and
+    is not so popular.\n</string>
+    <string name="shampoodesc">Shampoo removes hair dirt and all the secretions of sebaceous glands which accumulate on the scalp. For dry hair, choose a
+    shampoo with cod-liver oil or lecithin as its base.\n If you have oily hair, a shampoo containing sulphur or essence of cedar is best.</string>
+    <string name="title_activity_homemade_shampoos">Shampoos</string>
+    <string name="shampoo1a">Panama Wood Shampoo</string>
+    <string name="shampoo1b">Boil 50 gms of Panama wood in 2 pints of water.Let it soak for an hour. Strain off the liquid and use. This is
+    a good preparation for normal and oily hair.</string>
+    <string name="shampoo2a">Egg Shampoo</string>
+    <string name="shampoo2b">This is one of the oldest beauty recipes. Eggs are full of protein. Beat two egg yolks in a glass of hot water. Strain,
+    soak hair and scalp. Keep this on for an hour, then rinse off with water.</string>
+    <string name="shampoo3a">Rum Shampoo</string>
+    <string name="shampoo3b">Combine 2 egg yolks with 2 tablespoons of odourless linseed oil and 2 tablespoons of rum. Soak the hair and scalp.
+    Keep it on for an hour, then rinse off with warm water. This is especially good for dandruff and dry hair.</string>
+    <string name="shampoo4a">Conditioning Shampoo</string>
+    <string name="shampoo4b">Mix together 1-2 tablespoons shampoo, 1 egg and 1 tablespoon unflavoured gelatine powder. Beat slowly in order to
+    avoid lumps. Effective conditioning shampoo as egg and gelatine are both proteins and make hair lovely &amp; thick.</string>
+    <string name="shampoo5a">Tonic Shampoo</string>
+    <string name="shampoo5b">Put 130 gms each dried reetha,shikakai and amla into 1 litre water. Keep it for 24 hours. Boil, allow to
+    cool, strain and use as a shampoo.</string>
+    <string name="shampoo6a">Herb Shampoo</string>
+    <string name="shampoo6b">Wash 200 gms of dried olives and shikakai beans in cold water. Soak overnight in an iron pot, keep for 10 to 12
+    hours, boil in the morning for 10-15 minutes and strain. Liquidize the pulp that remains and use the paste to wash your hair. This shampoo
+     leaves your hair soft and shiny.</string>
+    <string name="shampoo7a">Camomile &amp; Soapwort</string>
+    <string name="shampoo7b">Take 1 tablespoon dried camomile, soapwort root powder in approximate quantity, 275ml boiling water. Soak the
+    herbs in water overnight, then strain before use. Soapwort makes a soapy liquid which whilst it does not lather will fully cleanse the
+    hair. Camomile will strengthen weak hair but other herbs may be used to meet specific problems.\n</string>
+    <string name="title_activity_hair_setting">Hair Setting Lotion</string>
+
+    <string name="hairset1a">Lemon juice</string>
+    <string name="hairset1b">Squeeze a lemon and use the strained juice for setting the hair.It makes the hair softy and shiny.Lemon
+    juice dries very fast &amp; can be used as an effective hair lacquer. To make a lemon hair lacquer, cut the lemon into pieces and boil
+     it with a cup of water until it shrinks to only half a cup.Strain and use.A few drops of alcohol/vodka may be added to
+    preserve it.</string>
+    <string name="hairset2">Gelatine, a protein agent is excellent as a setting lotion,giving body to limp hair. Dissolve 2
+    tablespoons gelatine in 2 cups of boiling water, and use it as a final rinse.</string>
+    <string name="hairset3">Add 1 tablespoon sugar to a glass of boiling water and when it has dissolved use it as a setting lotion
+    by putting it into a spray bottle.</string>
+    <string name="hairset4">Wood shavings are soaked in water overnight and the translucent sticky fluid rising to the water surface
+    can be well used as lacquer.It should be applied with a brush.</string>
+    <string name="hairset5">Crush the gum tragacanth with a pestle and mortar.Now add water to it and stir until the gum dissolves
+    and you have a smooth solution. Now add alcohol and glycerine. After a couple of hours,the lotion will thicken.</string>
+    <string name="hairset6a">Brilliantine</string>
+    <string name="hairset6b">Melt together in a bowl over pan of hot water 1 tablespoon each castor oil, coconut oil, petroleum jelly
+    (vaseline) &amp; emulsifying wax. Remove from heat and add perfume,beating till you have made brilliantine. To make
+    preparation more useful, you can add 2 teaspoons of lanolin to the mixture while melting. When removed from heat, just mix 1 teaspoon
+    of water.This brilliantine holds unruley hair.\n</string>
+
+    <string name="scabies1">Heat 250 ml of mustard oil to a boiling point and burn it 21 leaves of Swallow Wort one by one. When the oil
+    has cooled mix it to finely ground Mansal. The oil should be used to massage the affected parts.</string>
+    <string name="scabies2">Rub the affected parts with juice of lemon and jasmine. The itching surface is cured with regular massage.</string>
+    <string name="scabies3">Grind 20 gms of poppy seeds in water. Add to it 2 teaspoons of lime juice. The massage of this paste is
+    good for dry itch.</string>
+    <string name="scabies4">Grind 10 gms of Yellow Thistle and mix in water.Strain and drink the liquid for a week. This relieves the
+    worst type of itch.</string>
+    <string name="scabies5">Mix juice of 80 gms green leaves of Shahtara with 1 tablespoon of honey. This mix relieves itch due to
+    scabies.</string>
+    <string name="scabies6">Ground 10 gms leaf shoots of Neem with seven grains of pepper. Mix in water. Strain and drink.</string>
+    <string name="scabies7">Boil 50 gms of leaves of Oleander(Kaner) in 250 ml of mustard oil till charred. The oil should be
+    used for anointing the parts affected by itch.\n</string>
+    <string name="eczema1">Boil 20 gms of bark of Mango and Acacia trees in about one litre of water. Allow the vapours to play upon the
+    affected part. After this fomentation,they should be anointed with ghee.</string>
+    <string name="eczema2">Powder Babchi seeds and mix with mustard oil. Apply to the affected area like an ointment.</string>
+    <string name="eczema3">The leaves of the Indian Butter tree<i>(Mahua)</i> should be smeared with sesame oil and heated over fire
+    and bandaged on the affected parts. Change the bandage every 3 to 4 hours.</string>
+    <string name="eczema4">Drink the tea of Nettle or Dandelion(plant) or eat the Nettles in a nourishing soap. Dandelion
+    leaves can be added in the salad. This cures eczema.</string>
+    <string name="eczema5">Place 25 gms of daisies on 1 litre of water and bring gently to boil. Boil for 2 minutes, then remove from the
+    heat and let it stand for 10 minutes. Drink 3 cups a day between meals.</string>
+    <string name="eczema6">Simmer 50 gms of Birch leaves in 1 litre of water for 3 minutes. Leave until hot, then add a pinch of soda
+    bicarbonate. Allow to cool for hours, then use a disinfectant wash.\n</string>
+    <string name="psoriasis1">A diet of raw foods is recommended including whey milk for breakfast and slippery elm and honey at
+    night.</string>
+    <string name="psoriasis2">Boil 4 marigold heads in 4 cups of water for two minutes. Allow to cool, then massage the lotion well
+    into the scalp. Wash hair with a very mild shampoo or a solution of soapwort. Add lemon juice or cider vinegar to the
+    rinsing water to ensure a thorough rinse.</string>
+    <string name="psoriasis3a">Dried burdock seeds-25 gms,\n Camomile flowers-2 to 3,\n Water-600 ml,\n Honey-1 tablespoon</string>
+    <string name="psoriasis3b">Simmer burdock seeds and camomile flowers in water in a covered pan for 15 minutes. Strain
+    through a clean cloth and sweeten to taste with honey. Keep in refrigerator. Take 3 tablespoons four times daily for 2 weeks.</string>
+
+    <string name="almondmoist1a">Bees-wax-2 teaspoons,\n Emulsifying wax-1 teaspoon,\n Almond oil-5 teaspoons,\n Lavender oil-few drops</string>
+    <string name="almondmoist1b">Melt both bees-wax and emulsifying wax in a bowl over water. When melted, mix almond oil to it. In another
+    bowl,heat water over the same water so that the two bowls are at the same temperature.\n Slowly add water to the melted waxes and
+    oils, stirring all the time. Remove mixture from the heat and continue stirring.\n When cool, add few drops of lavender oil.</string>
+    <string name="herbcream1a">Lanolin-1 tablespoon,\n Emulsifying wax-2 teaspoons,\n Beeswax-6 tablespoons,\n Almond oil-6 tablespoons</string>
+    <string name="herbcream1b">Put the oil and waxes together in a small container. Place the container in a bigger one with hot water
+    and keep till the wax melts. Cool and store in a refrigerator.\n Take a couple of teaspoons of this cream, melt it and add a
+    teaspoon of any herb lotion or infusion. </string>
+    <string name="avocadoalmondcream1a">Beeswax-3 teaspoons,\nEmulsifying wax-3 teaspoons,\n Almond oil-1/2 cup,\n Avocado oil-1/4
+    cup,\n Rose water-3 tablespoons</string>
+    <string name="avocadoalmondcream1b">Melt waxes in an enamel pan over a water bath, then add the avocado and almond oils. Now add the
+    heated rose water drop by drop, stirring constantly. Remove from heat and continue stirring till it cools. Now add few drops of perfume.\n
+    Almond and Avocado are rich for the skin.</string>
+    <string name="sunflowercream1a">Lanolin-4 teaspoons,\n Emulsfying wax-2 teaspoons,\n Beeswax-2 teaspoons,\n Sunflower oil-5 tablespoons,
+    \n Water-6 tablespoons,\n Glycerine-2 teaspoons,\n Borax-1/2 teaspoon</string>
+    <string name="sunflowercream1b">Melt waxes, oil and lanolin over a water bath. Separately heat water, glycerine and borax making
+    sure the borax is completely dissolved. While the melted oils and waxes are still on the heat, slowly add water to it drop by
+    drop and continue beating with a wooden spoon till you get a whitish, thick &amp; creamy textured rich cream.\n It leaves the
+    skin looking moist and soft.</string>
+    <string name="jasminemoist1a">Emulsifying wax-2 tablespoons,\n Almond/Sunflower oil-2 tablespoons,\n Lanolin-1 teaspoon,\n Borax-
+    1/2 teaspoon,\n Witch-hazel-1 teaspoon,\n Glycerine-1.5 teaspoons,\n Water-8 tablespoons,\n Jasmine oil-few drops</string>
+    <string name="jasminemoist1b">Melt waxes, oil and lanolin together over a water bath. In a separate bowl heat water, glycerine and
+    borax. Make sure the borax is completely dissolved. \n Then add witch-hazel. Now slowly add water to the oils, stirring constantly
+    until it cools.Then add few drops of jasmine oil.\n The non-greasy cream thus formed is suitable for normal and greasy skins.</string>
+
+    <string name="nourishingdesc">Nourishing preparations include all the skin foods whether they are oil-based or the moisturising type,
+    whether they are light and immediately absorbed or heavy &amp; sticky, needing to be massaged into the skin.</string>
+    <string name="nourish1a">Cocoa Butter Cream</string>
+    <string name="nourish1b">Cocoa Butter-2 tablespoons,\n Emulsifying wax-2 tablespoons,\n Beeswax-1 tablespoon,\n Sesame oil-4
+    tablespoons,\n Almond oil-1 tablespoon</string>
+    <string name="nourish1c">When the ingredients are completely melted, remove from the heat and stir until the cream is cool,
+    adding few drops of perfume. This cream leaves the skin smooth without being greasy.</string>
+    <string name="nourish2a">Lanolin Cream</string>
+    <string name="nourish2b">Mix 2 tablespoons lanolin with 8 tablespoons almond oil over a water bath. Good for dry skins and for elbows, knees
+    , feet and neck.</string>
+    <string name="nourish3a">Elder Flower Cream</string>
+    <string name="nourish3b">Almond oil-3 tablespoons,\n Elder flowers blossoms-4 tablespoons,\n Lanolin-2 tablespoons</string>
+    <string name="nourish3c">Mix together all the above ingredients in a bowl over a water bath. Let it simmer together for an hour,
+     strain and then add warm water slowly, stirring.</string>
+    <string name="nourish4a">Honey Cream</string>
+    <string name="nourish4b">Honey is very useful for a dry, coarse and sensitive skin. Mix 3 tablespoons lanolin, 1/2 tablespoon honey
+    and 1 teaspoon lecithin in a bowl and melt over a water bath. Now slowly add 4 tablespoons warm water to it, beating continuously
+    until it cools.</string>
+    <string name="nourish5a">Vitamin Cream</string>
+    <string name="nourish5b">Bees-wax - 1 tablespoon,\n Emulsifying wax-1 tablespoon,\n Lanolin-1 tablespoon,\n Wheat-germ oil or
+    Vitamin E - 2 capsules,\n Carrot oil or Vitamin A - 3 tablespoons,\n Distilled water-6 tablespoons,\n Borax-1/2 tablespoon,\n
+    Tincture of benzoin-2 drops,\n Orange flower oil-few drops</string>
+    <string name="nourish5c">Melt waxes and oils over a water bath. In a separate bowl, dissolve borax in warm water. Add water to the
+    oils and beat until it cools. Add tincture of benzoin and continue beating until you get a thick moisturising cream. When mixing
+    vitamin capsules, simply prick open the capsules and add contents to the mixture.</string>
+    <string name="nourish6a">Wheat-germ Cream</string>
+    <string name="nourish6b">Beeswax-1 teaspoon,\n Emulsifying wax-1 teaspoon,\n Lanolin-5 tablespoons,\n Sesame oil-3 tablespoons,\n
+    Wheat-germ oil - 2 tablespoons,\n Water-5 tablespoons,\n Witch-hazel-1 tablespoon,\n Witch-hazel - 1 tablespoon,\n Borax-1/2 teaspoon,
+    \n Perfume-few drops</string>
+    <string name="nourish6c">Melt waxes and oil over a water bath. Heat water and borax and make sure that the borax has completely
+    dissolved. Now slowly add water to the melted oils and waxes. Stir until a thick, glossy nourishing cream is ready. Lanolin and
+    wheat-germ oil contain Vitamin E.</string>
+    <string name="nourish7a">Vegetable Cream</string>
+    <string name="nourish7b">Beeswax-2 tablespoons,\n Emulsifying wax-4 tablespoons,\n Lanolin-3 teaspoons,\n Almond oil-4 tablespoons,\n
+    Sesame oil-4 tablespoons,\n Avocado oil-2 tablespoons,\n Safflower oil-2 tablespoons,\n Sunflower oil-2 tablespoons,\n Water-5
+    tablespoons,\n Borax-1/2 teaspoons,\n Amber oil-few drops</string>
+    <string name="nourish7c">Mix and melt the waxes and oils together over a water bath. In separate bowl, dissolve borax in warm
+    water. Add water to the oils and beat until the cream cools. It gives the skin a satiny sheen.</string>
+    <string name="nourish8a">Strawberry Cream</string>
+    <string name="nourish8b">Mix 250 gms strawberries and 100 gms sugar in a pan and bring to boil. Cool and boil again. Allow
+    strawberry juice to cool &amp; store in the refrigerator. This lotion is very useful for oily skins.\n Melt 2 tablespoons each of
+    lanolin and sunflower oil together over a water bath and mix it to strawberry juice. Remove from heat &amp; stir thoroughly
+    till it thickens to a creamy consistency.</string>
+    <string name="nourish9a">Oily Nourishing Cream</string>
+    <string name="nourish9b">Coconut oil-3 tablespoons,\n Olive oil-2 tablespoons,\n Almond oil-1 tablespoon,\n Beeswax-1/2 tablespoon</string>
+    <string name="nourish9c">Dissolve 1/2 teaspoon borax in 3 tablespoons of heated water and mix it to melted oils slowly,
+    stirring until a cool cream is ready.\n</string>
+
+    <string name="toningdesc">Skin Toning is always done after cleansing routine with a mild skin freshener or with a medium strength skin
+    tonic. Toning removes greasiness remaining from cleansing, closed pores, refines the skin. The most easiest toner is simply to splash cold water
+    on face.\n Apply tonic with a piece of cotton wool. Toning stimulates the blood supply to the skin.\n</string>
+    <string name="tonic1a">Rose Water</string>
+    <string name="tonic1b">It is one of the oldest skin fresheners. Very easy to make on your own. Mix rose essence in pure water and shake
+    thoroughly. Two tablespoons essence of roses is sufficient for 4 litres purified water.</string>
+    <string name="tonic2a">Gypsy Rose Water</string>
+    <string name="tonic2b">Put 2 handfuls of dark, scented rose petals into a jar containing 1 litre water &amp; 200 gms of sugar. Keep the
+    mixture for 2 hours. Shake thoroughly, strain and store in a cool place.</string>
+    <string name="tonic3a">Rosewater &amp; Witch-hazel tonic</string>
+    <string name="tonic3b">Mix 1 cup of rosewater and 1/4 cup witch-hazel. For greasy skin, mix equal proportion of rosewater and witch-hazel.</string>
+    <string name="tonic4a">Flower &amp; Herb tonic</string>
+    <string name="tonic4b">Mix 2 tablespoons of dried herbs or flowers to a pint of boiling water and cover the pan to prevent steam from being
+    lost. Let the herbs steep for a couple of hours. Strain and bottle.</string>
+    <string name="tonic8a">Marigold Skin tonic</string>
+    <string name="tonic8b">Marigolds are knnown for healing properties. Mix 2 dried or 3 fresh marigold flowers to a pint of water and keep
+    for 10 to 12 hours. Mix it to 2 tablespoons of witch-hazel. This is especially for greasy, spotty skins.</string>
+    <string name="tonic6a">Hollyhock Skin tonic</string>
+    <string name="tonic6b">Put 3 tablespoons of hollyhock leaves into a hald pint of boiling water. Cover and simmer gently for 5 minutes. Leave for half an
+    hour, then strain and it is ready to use.\n Other flowers and leaves such as lilac, geranium, honey-suckle, lime flowers, lavender and
+    landelions </string>
+    <string name="tonic7a">Elder Flower tonic</string>
+    <string name="tonic7b">Wash a handful of elder flower and mix it to 6 tablespoons of boiling water in a large jar.Steep them overnight.
+    Strain next morning.</string>
+    <string name="tonic5a">Vinegar Skin tonic</string>
+    <string name="tonic5b">Cider vinegar-1/2 cup,\n Cloves-1/2 teaspoon,\n Lavender-1 tablespoon,\n Rose petals-1 tablespoon,\n Rosemary-1
+    tablespoon,\n Rose/orange flower water-2 tablespoons</string>
+    <string name="tonic5c">Mix the ingredients and leave for seven days, shaking the bottle twice daily. Always use vinegar diluted in the
+    ratio one part to eight parts of water.</string>
+    <string name="tonic9a">Cucumber tonic</string>
+    <string name="tonic9b">Wash &amp; liquidise half-peeled cucumber. Put the juice in a saucepan, bring it to boil and simmer it for five minutes.
+    Cool and strain it. Add 1 tablespoon of witch-hazel to every 2 tablespoons of cooked cucumber juice. Store the juice in a refrigerator. Mint 
+    can also be used in it. Add 4 tablespoons mint in the cucumber tonic.</string>
+    <string name="tonic10a">Orange &amp; Lemon tonic</string>
+    <string name="tonic10b">Put one slice of orange, half lemon and 2 tablespoons of castor sugar into a pan with a cup of milk. Heat the mixture 
+    to near boiling point. When it is cool, it is ready for use. Store the tonic in a refrigerator.</string>
+    <string name="tonic11a">Apple Tree Bark Tonic</string>
+    <string name="tonic11b">Infuse 4 tablespoons of apple tree bark in 2 cups of boiling water. Add about 1 tablespoon of sage and apply to the face.
+    \n</string>
+
+    <string name="astringentdesc">Astringent lotion is used to tone the skin. Astringent is applied to the oily parts on the face such as the
+    sides of the nose, chin and forehead.\n Never choose a harsh astringent.</string>
+    <string name="astringent1a">Honey Water Astringent</string>
+    <string name="astringent1b">Sandalwood oil-8 tablespoons,\n Musk or sandalwood chips-a pinch,\n Bergamot oil-1 teaspoon,\n Lavender
+    oil-1/4 teaspoon,\n Clove oil-1/8 teaspoon,\n Rosewater-4 tablespoons,\n Orange flower water-4 tablespoons,\n Honey-1 tablespoon</string>
+    <string name="astringent1c">Mix the ingredients together in a jar which should be air-tight and keep for two weeks, shaking it daily.</string>
+    <string name="astringent2a">Rosemary Water Astringent</string>
+    <string name="astringent2b">Rosemary-2 tablespoons,\n Rosemary-2 tablespoons,\n Rose water-1/2 cup,\n Witch-hazel-1/4 cup,\n Orange peel-
+    1/4 cup,\n Lemon peel &amp; pith-1/2 cup,\n Mint-4 sprigs</string>
+    <string name="astringent2c">Mix the ingredients together in a large air-tight bottle and let it stand for 48 to 72 hours, shaking 
+    frequently.</string>
+    <string name="astringent3a">Lemon Astringent</string>
+    <string name="astringent3b">Lemon juice-4 tablespoons,\n Peppermint extract-1/2 teaspoon,\n Witch-hazel - 8 tablespoons,\n Alcohol-2 
+    tablespoons</string>
+    <string name="astringent3c">Mix the ingredients together in a large bottle for 24 hours, then strain and use for greasy skin.</string>
+    <string name="astringent4a">Camphor Astringent</string>
+    <string name="astringent4b">Rosewater-1/2 cup,\n Witch-hazel - 1/2 cup,\n Distilled water-1/2 cup,\n Camphor spirit-1 tablespoon,\n
+    Blue colouring-2 drops</string>
+    <string name="astringent4c">Mix the ingredients in a large bottle. To make the lotion stronger, add a pinch of alum. Strain and use to
+    tighten and tone the skin.\n</string>
+    <string name="title_activity_face_pack2">FacePack</string>
+    <string name="title_activity_glossary_list">Glossary</string>
+
+    <string name="about">SOURCE: \n Herbal Remedies for BeautyCare Book\n By\n Parvesh Handa</string>
+    <string name="aboutdev">Developed by \n Reshma H
+    </string>
+    <string name="glossarybutton"><i>Glossary of Herbs</i></string>
+
+
+</resources>
